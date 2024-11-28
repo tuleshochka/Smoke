@@ -1,0 +1,7 @@
+2024-11-20 14:15:23.602982 ║INFO	║ 17812	║   0.101 >> Classtree created: True, found 0 classes
+2024-11-20 14:15:23.612753 ║INFO	║ 17812	║   0.113 >> Preprocessing zend
+2024-11-20 14:15:23.622803 ║INFO	║ 17812	║   0.126 >> [Zend] Registered 0 routes
+2024-11-20 14:15:23.632158 ║INFO	║ 17812	║   0.131 >> Preprocessing symfony
+2024-11-20 14:15:23.642260 ║INFO	║ 17812	║   0.145 >> [Symfony] Registered 0 routes
+2024-11-20 14:15:23.649557 ║INFO	║ 17812	║   0.150 >> Preprocessing laravel
+2024-11-20 14:15:23.655221 ║INFO	║ 17812	║   0.161 >> [Laravel] Registered 0 routes, 0 viewers

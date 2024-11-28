@@ -1,0 +1,8 @@
+16:23:28.411   INFO  infrastructure starting
+16:23:29.462  DEBUG  Initiating infrastructure provisioning.
+16:23:32.799   INFO  There are 1 suitable migrations
+16:23:32.799  DEBUG  Version '2.3.1' with 2 stage(s)
+16:23:32.799   INFO  Migration to '2.3.1' version start
+16:23:32.799   INFO  Migration to '2.3.1' version success complete
+16:23:34.012   INFO  Wait transport disconnecting
+16:23:35.453  DEBUG  Scan result ID: 09c10694-b2aa-4c29-8f3b-11a44db8a49c

@@ -1,0 +1,55 @@
+2024-11-15T06:51:52.502Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project Smoke
+2024-11-15T06:51:52.505Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-15T06:51:52.526Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-15T06:51:52.530Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-15T06:51:52.530Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 55078
+2024-11-15T06:51:52.536Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-15T06:51:52.536Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-15T06:51:52.803Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-15T06:51:52.807Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-15T06:51:52.808Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-15T06:51:53Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-15T06:51:53.001Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-15T06:51:53.001Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-15T06:51:53.097Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 63342
+2024-11-15T06:51:53.365Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-15T06:51:53.620Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-15T06:51:53.624Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-15T06:51:54.585Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:51:54.598Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T06:51:54.666Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:51:54.670Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-15T06:51:54.953Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:51:54.958Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T06:51:54.971Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-15T06:51:54.973Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-15T06:51:54.986Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:51:55Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T06:52:16.335Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T06:52:16.559Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T06:52:57.354Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:52:57.400Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:52:59.516Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:54:24.880Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T06:54:25.356Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T06:54:25.557Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T06:55:20.512Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:55:20.541Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:55:20.901Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:55:20.917Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:55:40.227Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:55:40.241Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T06:55:40.646Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T06:55:40.661Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T07:03:12.285Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:03:13.805Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:03:14.257Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:03:33.478Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:03:34.300Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:03:34.902Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:03:59.527Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:04:00.123Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:04:01.183Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:04:13.055Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:04:13.310Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status
+2024-11-15T07:04:13.540Z [bstractPanelIssueStateChangeAction.actionPerformed] WARN no scan problem to change status

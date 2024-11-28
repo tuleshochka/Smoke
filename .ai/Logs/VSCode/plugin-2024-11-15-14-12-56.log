@@ -1,0 +1,17 @@
+[11/15/2024, 2:12:56 PM] info: Logging was started to file.
+[11/15/2024, 2:12:56 PM] info: Start application inspector initialization
+[11/15/2024, 2:12:56 PM] info: Hide developer mode UI
+[11/15/2024, 2:12:56 PM] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke","isDebugging":false,"logLevel":{"q8_1":"Error","r8_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-15-14-12-56","tipsFoundNotificationThreshold":1000,"similarIssuesFoundNotificationThreshold":1000,"applicationLocalDataFolderPath":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"}
+[11/15/2024, 2:12:56 PM] info: Start infrastructure initialization
+[11/15/2024, 2:12:56 PM] info: Infrastructure was started
+[11/15/2024, 2:13:00 PM] info: Handled new configurationAieIntegrationServerUrl: https://aie-release-latest.aie.ptsecurity.ru/
+[11/15/2024, 2:13:01 PM] info: Local project wasn't mapped to aie -  initializeIssuesSynchronization is interrupted
+[11/15/2024, 2:13:02 PM] info: Infrastructure was initialized
+[11/15/2024, 2:13:02 PM] info: Infrastructure Installer was deleted
+[11/15/2024, 2:13:03 PM] info: Clean up logs files was started
+[11/15/2024, 2:13:03 PM] info: Clean up logs files was finished
+[11/15/2024, 2:13:03 PM] info: Start rendering scan result. ScanResultId=4353f4d2-4659-4046-80d0-96152006c012, ProjectId=5669769a-8cfe-4a96-811d-536887bdebde
+[11/15/2024, 2:13:04 PM] info: Rendering scan result was finished
+[11/15/2024, 2:13:11 PM] info: Handled new configurationAieIntegrationServerUrl: 
+[11/15/2024, 2:14:27 PM] info: Handled new configurationAieIntegrationServerUrl: https://aie-release-latest.aie.ptsecurity.ru/
+[11/15/2024, 2:14:28 PM] info: Local project wasn't mapped to aie -  initializeIssuesSynchronization is interrupted

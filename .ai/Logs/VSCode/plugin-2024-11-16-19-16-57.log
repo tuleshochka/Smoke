@@ -1,0 +1,16 @@
+[11/16/2024, 7:16:57 PM] info: Logging was started to file.
+[11/16/2024, 7:16:57 PM] info: Start application inspector initialization
+[11/16/2024, 7:16:57 PM] info: Hide developer mode UI
+[11/16/2024, 7:16:57 PM] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke","isDebugging":false,"logLevel":{"q8_1":"Error","r8_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-16-19-16-57","tipsFoundNotificationThreshold":1000,"similarIssuesFoundNotificationThreshold":1000,"applicationLocalDataFolderPath":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"}
+[11/16/2024, 7:16:57 PM] info: Start infrastructure initialization
+[11/16/2024, 7:16:58 PM] info: Handled new configurationAieIntegrationServerUrl: 
+[11/16/2024, 7:16:58 PM] info: Infrastructure was started
+[11/16/2024, 7:17:03 PM] info: Handled new configurationAieIntegrationServerUrl: https://aie-release-latest.aie.ptsecurity.ru/
+[11/16/2024, 7:17:07 PM] info: Infrastructure was initialized
+[11/16/2024, 7:17:07 PM] info: Infrastructure Installer was deleted
+[11/16/2024, 7:17:08 PM] info: Clean up logs files was started
+[11/16/2024, 7:17:08 PM] info: Clean up logs files was finished
+[11/16/2024, 7:17:08 PM] info: Start rendering scan result. ScanResultId=eda0d760-f5ab-4db8-b280-dfce68c72fb4, ProjectId=5669769a-8cfe-4a96-811d-536887bdebde
+[11/16/2024, 7:17:08 PM] info: Rendering scan result was finished
+[11/16/2024, 7:17:34 PM] info: Start unmapping local project from: Smoke
+[11/16/2024, 7:17:34 PM] info: Unmap project from Smoke finished

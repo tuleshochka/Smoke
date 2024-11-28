@@ -1,0 +1,93 @@
+2024-11-15 19:30:17.017930 ║INFO	║ 5996	║   1.991 >> Classtree created: True, found 0 classes
+2024-11-15 19:30:18.464058 ║INFO	║ 5996	║   3.438 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-15 19:30:18.465359 ║INFO	║ 5996	║   3.438 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-15 19:30:18.473046 ║INFO	║ 5996	║   3.438 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-15 19:30:18.484352 ║INFO	║ 5996	║   3.439 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-15 19:30:19.196939 ║INFO	║ 26176	║   0.035 >> Classtree created: True, found 0 classes
+2024-11-15 19:30:19.205679 ║INFO	║ 24000	║   0.038 >> Classtree created: True, found 0 classes
+2024-11-15 19:30:19.205679 ║INFO	║ 27048	║   0.036 >> Classtree created: True, found 0 classes
+2024-11-15 19:30:19.224899 ║INFO	║ 26176	║   0.059 >> pvf called exit('no domain')
+2024-11-15 19:30:19.229988 ║INFO	║ 26176	║   0.064 >> arg#0 payloadable: False
+2024-11-15 19:30:19.248946 ║INFO	║ 27048	║   0.079 >> 1 public methods found
+2024-11-15 19:30:19.248946 ║INFO	║ 22280	║   0.077 >> pvf called echo(((string)$_GET['a']))
+2024-11-15 19:30:19.248946 ║INFO	║ 26176	║   0.087 >> pvf called system(('nslookup ' . $_GET['domain']))
+2024-11-15 19:30:19.248946 ║INFO	║ 16604	║   0.081 >> pvf called echo(((string)$_GET['a']))
+2024-11-15 19:30:19.263135 ║INFO	║ 27048	║   0.079 >> 0 actions found
+e: True
+ction="" method="POST">\n		Get items by condition: <input type="text" name="condition"/>\n		<input type="submit" name="submit" value="Submit"/>\n	</form>')
+2024-11-15 19:30:19.274526 ║INFO	║ 27048	║   0.093 >> 0 methods to scan in pp mode
+2024-11-15 19:30:19.282637 ║INFO	║ 24000	║   0.109 >> pvf called exit(NULL)
+2024-11-15 19:30:19.294981 ║INFO	║ 24000	║   0.118 >> arg#0 payloadable: False
+2024-11-15 19:30:19.306010 ║INFO	║ 24000	║   0.131 >> pvf called mysql_connect(':3306', '', '')
+2024-11-15 19:30:19.318809 ║INFO	║ 24000	║   0.142 >> arg#0 payloadable: False
+2024-11-15 19:30:19.328637 ║INFO	║ 24000	║   0.153 >> pvf called exit('Could not connect to database')
+2024-11-15 19:30:19.339522 ║INFO	║ 24000	║   0.163 >> arg#0 payloadable: False
+2024-11-15 19:30:19.348361 ║INFO	║ 24000	║   0.175 >> pvf called exit('Could not select database')
+2024-11-15 19:30:19.359721 ║INFO	║ 24000	║   0.184 >> arg#0 payloadable: False
+2024-11-15 19:30:19.368460 ║INFO	║ 24000	║   0.195 >> pvf called exit('Unable to set the character set')
+2024-11-15 19:30:19.378033 ║INFO	║ 24000	║   0.204 >> arg#0 payloadable: False
+2024-11-15 19:30:19.386644 ║INFO	║ 24000	║   0.214 >> pvf called mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))
+2024-11-15 19:30:19.397358 ║INFO	║ 24000	║   0.221 >> arg#0 payloadable: True
+2024-11-15 19:30:19.810845 ║INFO	║ 24000	║   0.645 >> pvf called exit('Query error.')
+2024-11-15 19:30:19.820981 ║INFO	║ 24000	║   0.646 >> arg#0 payloadable: False
+2024-11-15 19:30:19.831542 ║INFO	║ 24000	║   0.657 >> pvf called exit('No item for you with this name.')
+2024-11-15 19:30:19.840768 ║INFO	║ 24000	║   0.667 >> arg#0 payloadable: False
+2024-11-15 19:30:19.852800 ║INFO	║ 24000	║   0.677 >> pvf called echo((('owner: ' . mysql_fetch_assoc({13: mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))})['owner']) . ...))
+2024-11-15 19:30:19.861824 ║INFO	║ 24000	║   0.688 >> arg#0 payloadable: True
+2024-11-15 19:30:20.210187 ║INFO	║ 16604	║   1.043 >> 0 public methods found
+2024-11-15 19:30:20.226238 ║INFO	║ 22280	║   1.047 >> 0 public methods found
+2024-11-15 19:30:20.226238 ║INFO	║ 16604	║   1.044 >> 0 actions found
+2024-11-15 19:30:20.250502 ║INFO	║ 22280	║   1.054 >> 0 actions found
+2024-11-15 19:30:20.259729 ║INFO	║ 22280	║   1.079 >> 0 methods to scan in pp mode
+2024-11-15 19:30:20.261734 ║INFO	║ 26176	║   1.070 >> 0 public methods found
+2024-11-15 19:30:20.272463 ║INFO	║ 26176	║   1.101 >> 0 actions found
+n in pp mode
+2024-11-15 19:30:20.288080 ║INFO	║ 26176	║   1.111 >> 0 methods to scan in pp mode
+2024-11-15 19:30:20.319438 ║INFO	║ 24000	║   1.153 >> 0 public methods found
+2024-11-15 19:30:20.333194 ║INFO	║ 24000	║   1.154 >> 0 actions found
+2024-11-15 19:30:20.345396 ║INFO	║ 24000	║   1.168 >> 0 methods to scan in pp mode
+2024-11-15 19:35:49.566754 ║INFO	║ 24508	║   0.781 >> Classtree created: True, found 0 classes
+2024-11-15 19:35:51.461053 ║INFO	║ 24508	║   2.675 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-15 19:35:51.461053 ║INFO	║ 24508	║   2.675 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-15 19:35:51.461053 ║INFO	║ 24508	║   2.676 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-15 19:35:51.477805 ║INFO	║ 24508	║   2.676 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-15 19:35:52.324295 ║INFO	║ 16776	║   0.042 >> Classtree created: True, found 0 classes
+2024-11-15 19:35:52.334952 ║INFO	║ 21912	║   0.057 >> pvf called exit('no domain')
+2024-11-15 19:35:52.334952 ║INFO	║ 25604	║   0.045 >> Classtree created: True, found 0 classes
+2024-11-15 19:35:52.334952 ║INFO	║ 18864	║   0.047 >> Classtree created: True, found 0 classes
+2024-11-15 19:35:52.334952 ║INFO	║ 16776	║   0.053 >> pvf called echo(((string)$_GET['a']))
+2024-11-15 19:35:52.358066 ║INFO	║ 16776	║   0.056 >> arg#0 payloadable: True
+tion="" method="POST">\n		Get items by condition: <input type="text" name="condition"/>\n		<input type="submit" name="submit" value="Submit"/>\n	</form>')
+2024-11-15 19:35:52.365908 ║INFO	║ 25604	║   0.077 >> arg#0 payloadable: True
+okup ' . $_GET['domain']))
+2024-11-15 19:35:52.376427 ║INFO	║ 3084	║   0.091 >> pvf called exit(NULL)
+ue
+mode
+2024-11-15 19:35:52.386043 ║INFO	║ 3084	║   0.102 >> arg#0 payloadable: False
+2024-11-15 19:35:52.412599 ║INFO	║ 3084	║   0.113 >> pvf called mysql_connect(':3306', '', '')
+2024-11-15 19:35:52.426491 ║INFO	║ 3084	║   0.138 >> arg#0 payloadable: False
+2024-11-15 19:35:52.437582 ║INFO	║ 3084	║   0.152 >> pvf called exit('Could not connect to database')
+2024-11-15 19:35:52.449222 ║INFO	║ 3084	║   0.163 >> arg#0 payloadable: False
+2024-11-15 19:35:52.460249 ║INFO	║ 3084	║   0.175 >> pvf called exit('Could not select database')
+2024-11-15 19:35:52.470875 ║INFO	║ 3084	║   0.185 >> arg#0 payloadable: False
+2024-11-15 19:35:52.483163 ║INFO	║ 3084	║   0.197 >> pvf called exit('Unable to set the character set')
+2024-11-15 19:35:52.492187 ║INFO	║ 3084	║   0.208 >> arg#0 payloadable: False
+2024-11-15 19:35:52.500207 ║INFO	║ 3084	║   0.219 >> pvf called mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))
+2024-11-15 19:35:52.511330 ║INFO	║ 3084	║   0.226 >> arg#0 payloadable: True
+2024-11-15 19:35:52.965346 ║INFO	║ 3084	║   0.687 >> pvf called exit('Query error.')
+2024-11-15 19:35:52.976375 ║INFO	║ 3084	║   0.691 >> arg#0 payloadable: False
+2024-11-15 19:35:52.989721 ║INFO	║ 3084	║   0.705 >> pvf called exit('No item for you with this name.')
+2024-11-15 19:35:53.002756 ║INFO	║ 3084	║   0.715 >> arg#0 payloadable: False
+2024-11-15 19:35:53.015791 ║INFO	║ 3084	║   0.729 >> pvf called echo((('owner: ' . mysql_fetch_assoc({13: mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))})['owner']) . ...))
+2024-11-15 19:35:53.035177 ║INFO	║ 3084	║   0.745 >> arg#0 payloadable: True
+2024-11-15 19:35:53.317300 ║INFO	║ 25604	║   1.036 >> 0 public methods found
+2024-11-15 19:35:53.333045 ║INFO	║ 25604	║   1.036 >> 0 actions found
+2024-11-15 19:35:53.346586 ║INFO	║ 25604	║   1.053 >> 0 methods to scan in pp mode
+2024-11-15 19:35:53.359621 ║INFO	║ 21912	║   1.073 >> 0 public methods found
+2024-11-15 19:35:53.371910 ║INFO	║ 21912	║   1.083 >> 0 actions found
+ found
+2024-11-15 19:35:53.384944 ║INFO	║ 21912	║   1.095 >> 0 methods to scan in pp mode
+2024-11-15 19:35:53.400605 ║INFO	║ 16776	║   1.107 >> 0 methods to scan in pp mode
+2024-11-15 19:35:53.493977 ║INFO	║ 3084	║   1.217 >> 0 public methods found
+2024-11-15 19:35:53.507026 ║INFO	║ 3084	║   1.218 >> 0 actions found
+2024-11-15 19:35:53.519057 ║INFO	║ 3084	║   1.233 >> 0 methods to scan in pp mode

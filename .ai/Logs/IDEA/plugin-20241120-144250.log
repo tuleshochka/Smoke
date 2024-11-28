@@ -1,0 +1,57 @@
+2024-11-20T08:42:50.066Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project Smoke
+2024-11-20T08:42:50.066Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T08:42:50.072Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:42:50.073Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:42:50.073Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:42:50.074Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T08:42:50.083Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-144250.log
+2024-11-20T08:42:50.084Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T08:42:50.084Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 49821
+2024-11-20T08:42:50.084Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T08:42:50.085Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T08:42:50.089Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:42:50.090Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:42:50.096Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:42:50.101Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:42:50.122Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 63342
+2024-11-20T08:42:50.137Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:42:50.874Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T08:42:50.874Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:42:50.876Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:42:51.913Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:42:51.919Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:42:51.981Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:42:56.311Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:42:56.312Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:42:57.259Z [ces.aie.AieInitializer.loadPreviouslyMappedProject] INFO new project with uuid f8e50bef-301d-43ef-8c4f-e8a8ed4ed789 was mapped
+2024-11-20T08:42:57.260Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE Integration initialized
+2024-11-20T08:42:57.272Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:42:57.272Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:42:57.274Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:42:57.275Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:42:57.278Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-144250.log
+2024-11-20T08:42:57.283Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:42:57.283Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:42:57.288Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:42:57.292Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:42:58.457Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO update user's permissions: UserInfo(name=root, globalPermissions=[CreateProject, ManageIssueTrackerIntegration, ReadIssueTrackerIntegration, ManageLicense, ReadLicense, ManageScanQueue, ReadScanQueue, ManageScanAgents, ReadScanAgents, ManageCustomRules, ReadCustomRules, ManageAccessTokens, ReadAccessTokens, ReadSSLCert, LoadLogs, ReadLogSettings, ManageLogSettings, ManageSystemProxySettings, ReadSystemProxySettings, ManageMailProfileSettings, ReadMailProfileSettings, ManageReportSettings, ReadReportSettings, ManageSSOSettings, ReadSSOSettings, ManageUsers, ReadUsers, ManageRoles, ReadRoles], projectPermissions=[ViewProject, ChangeVulnStatus, DeleteScanResult, UpdateProject, ManageScan, DeleteProject, ManageProjectMembership, DeleteIssueTrackerTicket, CreateIssueTrackerTicket])
+2024-11-20T08:42:58.458Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user approve issues: true
+2024-11-20T08:42:58.458Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user discard issues: true
+2024-11-20T08:43:32.441Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:43:46.558Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:43:46.698Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:43:46.699Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:43:46.790Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:43:46.791Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:43:46.822Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:43:46.823Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:44:21.711Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:44:21.984Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:44:33.529Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:44:38.341Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:44:38.481Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:44:38.481Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:44:38.574Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:44:38.575Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:44:38.606Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:44:38.607Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant

@@ -1,0 +1,10 @@
+14:17:56.852  ERROR  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+14:17:56.919  ERROR  @PHPProcessor: Stopping work of PHPProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––

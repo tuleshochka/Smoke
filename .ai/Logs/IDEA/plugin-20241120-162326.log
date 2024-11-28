@@ -1,0 +1,42 @@
+2024-11-20T10:23:26.742Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project Smoke
+2024-11-20T10:23:26.746Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T10:23:26.775Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T10:23:26.778Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T10:23:26.778Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 54447
+2024-11-20T10:23:26.785Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T10:23:26.785Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T10:23:27.051Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T10:23:27.057Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T10:23:27.057Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T10:23:27.058Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-162326.log
+2024-11-20T10:23:27.071Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T10:23:27.081Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T10:23:27.090Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T10:23:27.100Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T10:23:27.205Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T10:23:27.207Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T10:23:27.207Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T10:23:27.208Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-162326.log
+2024-11-20T10:23:27.217Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T10:23:27.218Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T10:23:27.226Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T10:23:27.236Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T10:23:27.373Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 63342
+2024-11-20T10:23:33.999Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T10:23:34.247Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T10:23:34.252Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T10:23:35.486Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T10:23:35.487Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T10:23:35.548Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T10:23:35.551Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-20T10:23:35.770Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T10:23:35.771Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T10:23:35.793Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T10:23:35.793Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T10:23:35.800Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-162326.log
+2024-11-20T10:23:35.801Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T10:23:35.809Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T10:23:35.810Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T10:23:35.817Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T10:23:35.818Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T10:23:35.824Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted

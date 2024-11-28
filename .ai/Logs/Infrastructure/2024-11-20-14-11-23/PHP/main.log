@@ -1,0 +1,50 @@
+2024-11-20 14:11:46.113957 ║INFO	║ 25944	║   2.233 >> Classtree created: True, found 0 classes
+2024-11-20 14:11:46.531646 ║INFO	║ 25944	║   2.650 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:11:46.531646 ║INFO	║ 25944	║   2.650 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:11:46.531646 ║INFO	║ 25944	║   2.651 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:11:46.531646 ║INFO	║ 25944	║   2.651 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:11:47.351764 ║INFO	║ 23356	║   0.051 >> Classtree created: True, found 0 classes
+2024-11-20 14:11:47.367805 ║INFO	║ 18212	║   0.059 >> Classtree created: True, found 0 classes
+2024-11-20 14:11:47.377832 ║INFO	║ 24368	║   0.064 >> Classtree created: True, found 0 classes
+2024-11-20 14:11:47.377832 ║INFO	║ 18236	║   0.058 >> Classtree created: True, found 0 classes
+2024-11-20 14:11:47.396881 ║INFO	║ 24368	║   0.086 >> pvf called exit('no domain')
+2024-11-20 14:11:47.407910 ║INFO	║ 23356	║   0.105 >> 1 public methods found
+g)$_GET['a']))
+2024-11-20 14:11:47.418939 ║INFO	║ 24368	║   0.104 >> pvf called system(('nslookup ' . $_GET['domain']))
+Get items by condition: <input type="text" name="condition"/>\n		<input type="submit" name="submit" value="Submit"/>\n	</form>')
+2024-11-20 14:11:47.431974 ║INFO	║ 24368	║   0.113 >> arg#0 payloadable: True
+mode
+2024-11-20 14:11:47.445008 ║INFO	║ 18212	║   0.125 >> pvf called exit(NULL)
+2024-11-20 14:11:47.457041 ║INFO	║ 18212	║   0.137 >> arg#0 payloadable: False
+2024-11-20 14:11:47.469071 ║INFO	║ 18212	║   0.151 >> pvf called mysql_connect(':3306', '', '')
+2024-11-20 14:11:47.477091 ║INFO	║ 18212	║   0.162 >> arg#0 payloadable: False
+2024-11-20 14:11:47.488122 ║INFO	║ 18212	║   0.170 >> pvf called exit('Could not connect to database')
+2024-11-20 14:11:47.499150 ║INFO	║ 18212	║   0.180 >> arg#0 payloadable: False
+2024-11-20 14:11:47.513322 ║INFO	║ 18212	║   0.194 >> pvf called exit('Could not select database')
+2024-11-20 14:11:47.521600 ║INFO	║ 18212	║   0.206 >> arg#0 payloadable: False
+2024-11-20 14:11:47.533163 ║INFO	║ 18212	║   0.215 >> pvf called exit('Unable to set the character set')
+2024-11-20 14:11:47.543015 ║INFO	║ 18212	║   0.226 >> arg#0 payloadable: False
+2024-11-20 14:11:47.552038 ║INFO	║ 18212	║   0.236 >> pvf called mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))
+2024-11-20 14:11:47.560407 ║INFO	║ 18212	║   0.244 >> arg#0 payloadable: True
+2024-11-20 14:11:48.018201 ║INFO	║ 18212	║   0.711 >> pvf called exit('Query error.')
+2024-11-20 14:11:48.030188 ║INFO	║ 18212	║   0.711 >> arg#0 payloadable: False
+2024-11-20 14:11:48.050317 ║INFO	║ 18212	║   0.725 >> pvf called exit('No item for you with this name.')
+2024-11-20 14:11:48.060506 ║INFO	║ 18212	║   0.743 >> arg#0 payloadable: False
+2024-11-20 14:11:48.073994 ║INFO	║ 18212	║   0.756 >> pvf called echo((('owner: ' . mysql_fetch_assoc({13: mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))})['owner']) . ...))
+2024-11-20 14:11:48.086203 ║INFO	║ 18212	║   0.768 >> arg#0 payloadable: True
+2024-11-20 14:11:48.431727 ║INFO	║ 24368	║   1.124 >> 0 public methods found
+2024-11-20 14:11:48.443760 ║INFO	║ 24368	║   1.126 >> 0 actions found
+ found
+2024-11-20 14:11:48.443760 ║INFO	║ 18236	║   1.120 >> 0 public methods found
+2024-11-20 14:11:48.467821 ║INFO	║ 18936	║   1.136 >> 0 actions found
+n in pp mode
+2024-11-20 14:11:48.480355 ║INFO	║ 18936	║   1.161 >> 0 methods to scan in pp mode
+2024-11-20 14:11:48.494382 ║INFO	║ 18212	║   1.185 >> 0 public methods found
+2024-11-20 14:11:48.505626 ║INFO	║ 18212	║   1.187 >> 0 actions found
+2024-11-20 14:11:48.520588 ║INFO	║ 18212	║   1.199 >> 0 methods to scan in pp mode
+2024-11-20 14:12:00.764176 ║INFO	║ 3256	║   0.856 >> Classtree created: True, found 0 classes
+2024-11-20 14:12:02.596919 ║INFO	║ 3256	║   2.688 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:12:02.596919 ║INFO	║ 3256	║   2.688 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:12:02.596919 ║INFO	║ 3256	║   2.688 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:12:02.615597 ║INFO	║ 3256	║   2.689 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:12:02.615597 ║INFO	║ 3256	║   2.688 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc

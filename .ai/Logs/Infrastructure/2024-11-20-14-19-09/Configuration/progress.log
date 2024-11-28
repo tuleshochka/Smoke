@@ -1,0 +1,72 @@
+2024-11-20 14:20:25.234847 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:20:25.244558 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:20:25.251577 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:20:25.258595 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:20:25.265613 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:20:25.273635 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:20:25.283163 ║INFO	║ 29756	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:20:29.751528 ║INFO	║ 29756	║ Finalize
+2024-11-20 14:20:29.756922 ║INFO	║ 29756	║ Finalize done
+2024-11-20 14:31:21.069109 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:31:21.079096 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:31:21.086430 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:31:21.093800 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:31:21.098823 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:31:21.104307 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:31:21.111238 ║INFO	║ 32752	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:31:25.805963 ║INFO	║ 32752	║ Finalize
+2024-11-20 14:31:25.811741 ║INFO	║ 32752	║ Finalize done
+2024-11-20 14:33:10.134515 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:33:10.141382 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:33:10.147401 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:33:10.153156 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:33:10.159476 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:33:10.164153 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:33:10.170375 ║INFO	║ 16260	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:33:14.409014 ║INFO	║ 16260	║ Finalize
+2024-11-20 14:33:14.415632 ║INFO	║ 16260	║ Finalize done
+2024-11-20 14:33:38.206578 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:33:38.214042 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:33:38.221572 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:33:38.229304 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:33:38.233635 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:33:38.240285 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:33:38.245319 ║INFO	║ 5008	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:33:42.523341 ║INFO	║ 5008	║ Finalize
+2024-11-20 14:33:42.529693 ║INFO	║ 5008	║ Finalize done
+2024-11-20 14:34:46.783686 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:34:46.792267 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:34:46.799795 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:34:46.805294 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:34:46.811893 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:34:46.817249 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:34:46.823488 ║INFO	║ 13072	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:34:51.080680 ║INFO	║ 13072	║ Finalize
+2024-11-20 14:34:51.086869 ║INFO	║ 13072	║ Finalize done
+2024-11-20 14:35:33.996597 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:35:34.004635 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:35:34.010800 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:35:34.017212 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:35:34.023783 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:35:34.030043 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:35:34.037142 ║INFO	║ 27864	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:35:38.525668 ║INFO	║ 27864	║ Finalize
+2024-11-20 14:35:38.531566 ║INFO	║ 27864	║ Finalize done
+2024-11-20 14:36:59.999815 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:37:00.008017 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:37:00.015883 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:37:00.021912 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:37:00.028992 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:37:00.035508 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:37:00.044531 ║INFO	║ 12800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:37:04.266725 ║INFO	║ 12800	║ Finalize
+2024-11-20 14:37:04.272744 ║INFO	║ 12800	║ Finalize done
+2024-11-20 14:37:23.069202 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-20 14:37:23.077267 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:37:23.086060 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:37:23.092079 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:37:23.097115 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:37:23.104165 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:37:23.109954 ║INFO	║ 29880	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-20 14:37:27.382109 ║INFO	║ 29880	║ Finalize
+2024-11-20 14:37:27.388122 ║INFO	║ 29880	║ Finalize done

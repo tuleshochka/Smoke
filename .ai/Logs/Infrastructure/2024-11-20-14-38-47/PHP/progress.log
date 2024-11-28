@@ -1,0 +1,13 @@
+2024-11-20 14:42:26.749691 ║INFO	║ 16816	║   0.000 >> process AI3 init
+2024-11-20 14:42:26.820352 ║INFO	║ 16816	║   0.071 >> Preprocessing started
+2024-11-20 14:42:27.666888 ║INFO	║ 16816	║   0.917 >> Preprocessing finished
+2024-11-20 14:42:29.636125 ║INFO	║ 16816	║   2.886 >> Scan started
+2024-11-20 14:42:29.641905 ║INFO	║ 16816	║   0.002 >> worker.run started
+2024-11-20 14:42:29.641905 ║INFO	║ 16816	║   0.002 >> worker.run started
+2024-11-20 14:42:29.641905 ║INFO	║ 16816	║   0.001 >> worker.run started
+2024-11-20 14:42:29.641905 ║INFO	║ 16816	║   0.002 >> worker.run started
+2024-11-20 14:42:29.655491 ║INFO	║ 16816	║   0.008 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+m.php
+2024-11-20 14:42:29.655491 ║INFO	║ 16816	║   0.008 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:42:29.655491 ║INFO	║ 16816	║   0.008 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:42:29.673579 ║INFO	║ 16816	║   0.020 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php

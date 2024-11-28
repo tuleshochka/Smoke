@@ -1,0 +1,101 @@
+14:43:32.894   INFO  Scanning preparation started.
+14:43:32.943  DEBUG  Previous scan not found. Clear cache of project files dependency relationship.
+14:43:33.213  DEBUG  Creating VFS nodes for physPath C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke and vfsPath .
+14:43:33.236   INFO  Computing hash for project tree was started.
+14:43:33.458  DEBUG  Elapsed time of files hash computing: 00:00:00.
+14:43:34.382  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core initialization stage: 00:00:00.0095017.
+14:43:34.415  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core initialization stage: 00:00:00.0407461.
+14:43:34.552  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core initialization stage: 00:00:00.2053834.
+14:43:34.581  DEBUG  @PHPProcessor: Elapsed time of "PHP" core initialization stage: 00:00:00.2508333.
+14:43:34.630  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core preprocessing stage: 00:00:00.0017908.
+14:43:35.652  DEBUG  @PHPProcessor: Elapsed time of "PHP" core preprocessing stage: 00:00:01.0251180.
+14:43:37.033  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core preprocessing stage: 00:00:02.4044886.
+14:43:37.046  DEBUG  Previous Scan ID: '(null)'
+14:43:37.062  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core preprocessing stage: 00:00:00.0079564.
+14:43:37.515  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core scan stage: 00:00:00.3875269.
+14:43:38.212   INFO  @PHPProcessor: Issue "Weakness:Hardcoded Password PM" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:43:38.256   INFO  @PHPProcessor: Issue "Weakness:Hardcoded Password PM" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:43:38.704  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core scan stage: 00:00:01.5770519.
+14:43:38.855   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./xss.abc"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc"
+
+14:43:38.890   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./dir/xss.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php"
+
+14:43:38.921   INFO  @PHPProcessor: Issue "Vulnerability:OS Commanding" detected for file:
+
+  "./dir/oscom.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php"
+
+14:43:39.015   INFO  @PHPProcessor: Issue "Vulnerability:SQL Injection" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:43:39.094   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:43:40.403  DEBUG  @PHPProcessor: Elapsed time of "PHP" core scan stage: 00:00:03.2772674.
+14:43:41.746  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core scan stage: 00:00:04.6189980.
+14:43:41.799  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core finalization stage: 00:00:00.0016975
+14:43:41.799  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core finalization stage: 00:00:00.0021350
+14:43:41.809  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core finalization stage: 00:00:00.0124799
+14:43:41.830  DEBUG  @PHPProcessor: Elapsed time of "PHP" core finalization stage: 00:00:00.0353733
+14:43:41.830  ERROR  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+14:43:41.938  ERROR  @PHPProcessor: Stopping work of PHPProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+14:43:41.950   INFO  Terminate scanning...
+14:43:41.950   INFO  Scanning was stopped.
+14:44:33.663   INFO  Scanning preparation started.
+14:44:33.665   INFO  Verifying incremental scanning start.
+14:44:33.665   INFO  Incremental start scanning was verified.
+14:44:33.869  DEBUG  Creating VFS nodes for physPath C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke and vfsPath .
+14:44:33.900   INFO  Computing hash for project tree was started.
+14:44:34.117  DEBUG  Elapsed time of files hash computing: 00:00:00.
+14:44:34.149  DEBUG  Previous Scan ID: 'c8d2f758-54be-4e6a-94c9-aec4a6acadb2'
+14:44:34.396  DEBUG  Found previous issues:
+
+  ./dir/sqli.php
+  Weakness, "Hardcoded Password PM", QemYhjuLGWFshwaDpfdt21YvizI=
+
+  ./dir/sqli.php
+  Weakness, "Hardcoded Password PM", ux4OCevOjayAwrTsCX9lYIK/cNs=
+
+  ./dir/sqli.php
+  Vulnerability, "SQL Injection", oXEvEeF2CoFivawF+4bMInDS8dY=
+
+  ./dir/sqli.php
+  Vulnerability, "Cross-site Scripting", ni2vcNHuysjqSYwMgdBNDroX3mk=
+
+  ./dir/xss.php
+  Vulnerability, "Cross-site Scripting", sEJSo9cMN5jXz0KILahpHb0s10M=
+
+  ./xss.abc
+  Vulnerability, "Cross-site Scripting", meZqncW7Y91xXw+SVwkjHAF69EE=
+
+  ./dir/oscom.php
+  Vulnerability, "OS Commanding", TB5sxMTpY0YN/dVrsvJREu576PY=
+
+14:44:34.551   INFO  Terminate scanning...
+14:44:34.551   INFO  Scanning was stopped.

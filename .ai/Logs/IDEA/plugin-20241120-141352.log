@@ -1,0 +1,492 @@
+2024-11-20T08:13:52.955Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project Smoke
+2024-11-20T08:13:52.958Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T08:13:52.983Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T08:13:52.986Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T08:13:52.986Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 64081
+2024-11-20T08:13:52.992Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T08:13:53.002Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T08:13:53.023Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:13:53.028Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:13:53.028Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:13:53.029Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:13:53.039Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:13:53.044Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:13:53.053Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:13:53.060Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:13:53.196Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:13:53.198Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:13:53.199Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:13:53.199Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:13:53.207Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:13:53.209Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:13:53.217Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:13:53.225Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:13:53.262Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 63342
+2024-11-20T08:13:53.824Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T08:13:54.074Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:13:54.078Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:13:55.053Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:13:55.055Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:13:55.124Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:13:55.134Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-20T08:13:55.366Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:13:55.367Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:13:55.386Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:13:55.387Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:13:55.394Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:13:55.396Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:13:55.401Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:13:55.402Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:13:55.408Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:13:55.412Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:13:55.414Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:14:30.518Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:14:30.521Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:14:31.344Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:14:38.736Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:14:38.739Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:14:39.043Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:14:39.043Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:14:39.043Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:14:39.050Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:14:39.051Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:14:39.056Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:14:39.062Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:14:46.953Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:14:46.953Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:14:46.956Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:14:46.974Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:14:46.975Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test1, pathsToLogs=[process.log])
+2024-11-20T08:14:47.006Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:14:47.022Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test1 was inserted
+2024-11-20T08:14:50.178Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:14:50.179Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:14:50.184Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:14:50.208Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:14:50.208Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log])
+2024-11-20T08:14:50.240Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:14:52.558Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:14:52.560Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:14:52.562Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:14:52.597Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:14:52.598Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test1, pathsToLogs=[process.log])
+2024-11-20T08:14:52.613Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:14:52.629Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test1 was inserted
+2024-11-20T08:14:55.464Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:14:55.464Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:14:55.469Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:14:55.517Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:14:55.517Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:14:55.532Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:14:55.548Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:14:59.240Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:15:01.134Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:15:01.150Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:01.165Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:01.181Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:15:01.322Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:01.323Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:01.416Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:01.432Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:01.463Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:01.464Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:04.004Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:15:04.006Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:15:04.060Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T08:15:04.069Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T08:15:04.069Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T08:15:04.070Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 64180
+2024-11-20T08:15:04.070Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T08:15:04.070Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T08:15:04.072Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:15:04.073Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:15:04.073Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:15:04.073Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:15:04.078Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:15:04.079Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:15:04.085Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:15:04.090Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:15:04.896Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T08:15:04.897Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:15:04.898Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:15:05.932Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:05.940Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:05.996Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:15:06.003Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-20T08:15:06.294Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:06.295Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:06.312Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:15:06.313Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:15:06.316Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:15:06.323Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:15:06.323Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:15:06.325Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:06.341Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:06.374Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:15:06.389Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:15:20.957Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:15:30.605Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:15:30.620Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:30.636Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:30.652Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:15:30.793Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:30.808Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:30.856Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:30.857Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:15:30.888Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:15:30.889Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:31.163Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:17:32.276Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:17:32.292Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:32.307Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:32.322Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:17:32.465Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:32.465Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:32.557Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:32.559Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:32.589Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:32.590Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:34.932Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:17:34.933Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:17:34.953Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T08:17:34.955Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T08:17:34.956Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T08:17:34.956Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 64346
+2024-11-20T08:17:34.956Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T08:17:34.956Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T08:17:34.965Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:17:34.966Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:17:34.966Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:17:34.966Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:17:34.972Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:17:34.973Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:17:34.978Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:17:34.985Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:17:35.705Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T08:17:35.705Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:17:35.706Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:17:36.713Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:36.721Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:36.781Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:17:36.783Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-20T08:17:37.062Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:37.063Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:37.079Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:17:37.079Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:17:37.081Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:17:37.091Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:17:37.092Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:17:37.093Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:37.097Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:17:37.101Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:17:37.109Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:44.697Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:17:44.968Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:17:47.710Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:17:57.295Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:17:57.310Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:57.327Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:57.342Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:17:57.483Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:57.484Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:57.576Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:57.577Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:17:57.623Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:17:57.624Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:18:33.867Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:18:37.107Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:18:37.109Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:18:37.170Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T08:18:37.177Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T08:18:37.178Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T08:18:37.179Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 64460
+2024-11-20T08:18:37.179Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T08:18:37.179Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T08:18:37.186Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:18:37.187Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:18:37.187Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:18:37.187Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:18:37.192Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:18:37.193Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:18:37.198Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:18:37.202Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:18:37.958Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T08:18:37.958Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:18:37.960Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:18:39.076Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:18:39.083Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:18:39.135Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:18:39.142Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-20T08:18:39.300Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:18:39.302Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:18:39.317Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:18:39.319Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:18:39.320Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:18:39.324Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:18:39.324Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:18:39.327Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:18:39.330Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:18:39.332Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:18:39.347Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:19:06.126Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:19:09.073Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:19:09.076Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:19:09.130Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-20T08:19:09.139Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-20T08:19:09.140Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-20T08:19:09.140Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 64533
+2024-11-20T08:19:09.140Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-20T08:19:09.140Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-20T08:19:09.142Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-20T08:19:09.143Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:19:09.143Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:19:09.143Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:19:09.146Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:19:09.147Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:19:09.151Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:19:09.155Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:19:09.970Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-20T08:19:09.971Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-20T08:19:09.972Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-20T08:19:11.145Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:19:11.153Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:19:11.204Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:19:11.221Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE integration isn't initialized, skipping listeners initialization
+2024-11-20T08:19:11.391Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:19:11.394Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:19:11.408Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-20T08:19:11.408Z [els.AIToolWindowLogPanel.removeAdditionalLogPanels] INFO removing additional log panels
+2024-11-20T08:19:11.410Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO path to the logs is C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\IDEA\plugin-20241120-141352.log
+2024-11-20T08:19:11.414Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Plugin Log was inserted
+2024-11-20T08:19:11.414Z [lWindowLogPanel$reloadAdditionalLogPanels$1.invoke] INFO additional logs from dev mode are LogPanel(panelName=Analyzer, pathsToLogs=[infrastructure.log]), LogPanel(panelName=Test, pathsToLogs=[process.log])
+2024-11-20T08:19:11.418Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Analyzer was inserted
+2024-11-20T08:19:11.421Z [tellij.ui.panels.AIToolWindowLogPanel.insertLogTab] INFO log tab Test was inserted
+2024-11-20T08:19:11.422Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:19:11.438Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:20.494Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:20:30.308Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:20:30.323Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:30.338Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:30.353Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:20:30.496Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:30.499Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:30.574Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:30.576Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:30.604Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:30.606Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:57.219Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:20:58.479Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:20:58.494Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:58.510Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:58.525Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:20:58.666Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:58.668Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:58.759Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:58.762Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:20:58.790Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:20:58.793Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:20.155Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:29:21.720Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:29:21.735Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:21.751Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:21.767Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:29:21.909Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:21.911Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:21.986Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:21.988Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:22.017Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:22.020Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:23.051Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:29:24.937Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:29:25.078Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:25.090Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:25.172Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:25.174Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:25.203Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:25.206Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:27.370Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:29:29.261Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:29:29.400Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:29.403Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:29.493Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:29.496Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:29.525Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:29.528Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:34.254Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:29:37.981Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:29:38.120Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:38.135Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:38.197Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:38.200Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:29:38.227Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:29:38.229Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:30:12.196Z [iintellij.services.aie.AieInitializer.deinitialize] INFO AieInitializer.deinitialize is calling
+2024-11-20T08:30:19.606Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:30:19.623Z [ces.aie.AieInitializer.loadPreviouslyMappedProject] INFO new project with uuid f8e50bef-301d-43ef-8c4f-e8a8ed4ed789 was mapped
+2024-11-20T08:30:19.623Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE Integration initialized
+2024-11-20T08:30:19.676Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO repository url: null, language is [Php]
+2024-11-20T08:30:21.147Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO update user's permissions: UserInfo(name=root, globalPermissions=[CreateProject, ManageIssueTrackerIntegration, ReadIssueTrackerIntegration, ManageLicense, ReadLicense, ManageScanQueue, ReadScanQueue, ManageScanAgents, ReadScanAgents, ManageCustomRules, ReadCustomRules, ManageAccessTokens, ReadAccessTokens, ReadSSLCert, LoadLogs, ReadLogSettings, ManageLogSettings, ManageSystemProxySettings, ReadSystemProxySettings, ManageMailProfileSettings, ReadMailProfileSettings, ManageReportSettings, ReadReportSettings, ManageSSOSettings, ReadSSOSettings, ManageUsers, ReadUsers, ManageRoles, ReadRoles], projectPermissions=[ViewProject, ChangeVulnStatus, DeleteScanResult, UpdateProject, ManageScan, DeleteProject, ManageProjectMembership, DeleteIssueTrackerTicket, CreateIssueTrackerTicket])
+2024-11-20T08:30:21.148Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user approve issues: true
+2024-11-20T08:30:21.148Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user discard issues: true
+2024-11-20T08:31:16.599Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:31:30.879Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:31:30.894Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:30.909Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:31:30.925Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:31:31.065Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:31.069Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:31:31.158Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:31.160Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:31:31.204Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:31.204Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:31:38.013Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:31:38.042Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:38.199Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:38.214Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:41.879Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:31:41.892Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:42.033Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:42.049Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:46.339Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:46.354Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:48.217Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:48.232Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:50.089Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:52.141Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:52.156Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:53.969Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:31:53.985Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:31:55.994Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:32:02.297Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:32:02.313Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:32:06.022Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:32:08.355Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:32:08.371Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:32:10.139Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:32:50.621Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO repository url: null, language is [Php]
+2024-11-20T08:32:51.479Z [llers.aie.MapProjectController.unmapCurrentProject] INFO Unmapping project Smoke via dialog window
+2024-11-20T08:32:58.688Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:32:58.704Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:32:58.735Z [.controllers.aie.MapProjectController.onMapSuccess] INFO project successfully mapped: Smoke-PHP
+2024-11-20T08:32:58.736Z [iintellij.controllers.aie.MapProjectController.map] INFO sync statuses: FromEnterprise
+2024-11-20T08:32:59.311Z [ojectService$getActualScanSettings$1.invokeSuspend] WARN kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 500 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:191)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:161)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:507)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-11-20T08:32:59.823Z [ojectService$getActualScanSettings$1.invokeSuspend] WARN kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 500 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:191)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:161)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:507)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-11-20T08:33:00.335Z [ojectService$getActualScanSettings$1.invokeSuspend] WARN kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 500 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:191)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:161)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:507)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-11-20T08:33:00.356Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO update user's permissions: UserInfo(name=root, globalPermissions=[CreateProject, ManageIssueTrackerIntegration, ReadIssueTrackerIntegration, ManageLicense, ReadLicense, ManageScanQueue, ReadScanQueue, ManageScanAgents, ReadScanAgents, ManageCustomRules, ReadCustomRules, ManageAccessTokens, ReadAccessTokens, ReadSSLCert, LoadLogs, ReadLogSettings, ManageLogSettings, ManageSystemProxySettings, ReadSystemProxySettings, ManageMailProfileSettings, ReadMailProfileSettings, ManageReportSettings, ReadReportSettings, ManageSSOSettings, ReadSSOSettings, ManageUsers, ReadUsers, ManageRoles, ReadRoles], projectPermissions=[ViewProject, ChangeVulnStatus, DeleteScanResult, UpdateProject, ManageScan, DeleteProject, ManageProjectMembership, DeleteIssueTrackerTicket, CreateIssueTrackerTicket])
+2024-11-20T08:33:00.356Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user approve issues: true
+2024-11-20T08:33:00.356Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user discard issues: true
+2024-11-20T08:33:05.588Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:33:17.594Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:33:17.609Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:17.624Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:17.640Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:33:17.720Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:17.733Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:17.790Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:17.792Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:17.826Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:17.828Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:31.114Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:33:31.130Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:32.682Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:33:32.697Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:34.056Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:33:44.694Z [sistantNotificationService.onAssistantNotification] INFO TipsWereFound notification is received by assistant
+2024-11-20T08:33:44.709Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:44.724Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:44.739Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:33:44.862Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:44.877Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:44.958Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:44.959Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:33:44.986Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:33:44.989Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:34:18.162Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:34:18.178Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:18.331Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:18.346Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:20.156Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:34:20.172Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:20.372Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:20.387Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:27.844Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:34:27.876Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:28.062Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:28.078Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:30.154Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-20T08:34:30.170Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:30.280Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:30.295Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:35.789Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:35.804Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:38.279Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:38.294Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:39.735Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:34:39.752Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:42.358Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:34:54.429Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:34:54.567Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:54.569Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:34:54.660Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:54.662Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:34:54.692Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:34:54.694Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:35:20.693Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:35:20.708Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:35:27.576Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:35:27.592Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:35:29.643Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:35:42.580Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:35:42.720Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:35:42.722Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:35:42.814Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:35:42.819Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:35:42.861Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:35:42.866Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:36:53.333Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:36:53.348Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:36:55.072Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:37:10.155Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:37:10.280Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:10.282Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:37:10.374Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:10.377Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:37:10.404Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:10.407Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:37:13.239Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:37:13.254Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:14.325Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:37:14.340Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:16.431Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:37:16.445Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:17.668Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-20T08:37:17.683Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:18.933Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-20T08:37:29.495Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-20T08:37:29.635Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:29.637Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:37:29.727Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:29.729Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-20T08:37:29.757Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-20T08:37:29.760Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant

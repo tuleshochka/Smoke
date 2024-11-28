@@ -1,0 +1,4 @@
+2024-11-15 19:30:16.823600 ║INFO	║ 11908	║   1.248 >> checking for composer files in C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-15 19:30:16.832928 ║INFO	║ 11908	║   1.248 >> composer files not found
+2024-11-15 19:35:49.400866 ║INFO	║ 28832	║   0.048 >> checking for composer files in C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-15 19:35:49.408888 ║INFO	║ 28832	║   0.049 >> composer files not found

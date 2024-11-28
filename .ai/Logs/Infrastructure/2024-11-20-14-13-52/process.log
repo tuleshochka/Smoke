@@ -1,0 +1,32 @@
+14:14:59.804   INFO  Scanning preparation started.
+14:14:59.822   INFO  Verifying incremental scanning start.
+14:14:59.844   INFO  Incremental start scanning was verified.
+14:14:59.987  DEBUG  Creating VFS nodes for physPath C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke and vfsPath .
+14:15:00.055   INFO  Computing hash for project tree was started.
+14:15:00.286  DEBUG  Elapsed time of files hash computing: 00:00:00.
+14:15:00.325  DEBUG  Previous Scan ID: '7921d0d7-1956-4305-a78d-a2aeb0e3c237'
+14:15:00.588  DEBUG  Found previous issues:
+
+  ./dir/sqli.php
+  Weakness, "Hardcoded Password PM", QemYhjuLGWFshwaDpfdt21YvizI=
+
+  ./dir/sqli.php
+  Weakness, "Hardcoded Password PM", ux4OCevOjayAwrTsCX9lYIK/cNs=
+
+  ./dir/sqli.php
+  Vulnerability, "SQL Injection", oXEvEeF2CoFivawF+4bMInDS8dY=
+
+  ./dir/sqli.php
+  Vulnerability, "Cross-site Scripting", ni2vcNHuysjqSYwMgdBNDroX3mk=
+
+  ./dir/xss.php
+  Vulnerability, "Cross-site Scripting", sEJSo9cMN5jXz0KILahpHb0s10M=
+
+  ./xss.abc
+  Vulnerability, "Cross-site Scripting", meZqncW7Y91xXw+SVwkjHAF69EE=
+
+  ./dir/oscom.php
+  Vulnerability, "OS Commanding", TB5sxMTpY0YN/dVrsvJREu576PY=
+
+14:15:00.792   INFO  Terminate scanning...
+14:15:00.792   INFO  Scanning was stopped.

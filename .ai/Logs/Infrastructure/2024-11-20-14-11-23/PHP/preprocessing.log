@@ -1,0 +1,14 @@
+2024-11-20 14:11:45.957153 ║INFO	║ 13484	║   1.518 >> Classtree created: True, found 0 classes
+2024-11-20 14:11:45.971088 ║INFO	║ 13484	║   1.532 >> Preprocessing zend
+2024-11-20 14:11:45.976123 ║INFO	║ 13484	║   1.537 >> [Zend] Registered 0 routes
+2024-11-20 14:11:45.982533 ║INFO	║ 13484	║   1.539 >> Preprocessing symfony
+2024-11-20 14:11:45.991387 ║INFO	║ 13484	║   1.548 >> [Symfony] Registered 0 routes
+2024-11-20 14:11:45.996587 ║INFO	║ 13484	║   1.553 >> Preprocessing laravel
+2024-11-20 14:11:46.004285 ║INFO	║ 13484	║   1.563 >> [Laravel] Registered 0 routes, 0 viewers
+2024-11-20 14:12:00.599567 ║INFO	║ 23688	║   0.098 >> Classtree created: True, found 0 classes
+2024-11-20 14:12:00.605542 ║INFO	║ 23688	║   0.101 >> Preprocessing zend
+2024-11-20 14:12:00.615812 ║INFO	║ 23688	║   0.110 >> [Zend] Registered 0 routes
+2024-11-20 14:12:00.624670 ║INFO	║ 23688	║   0.116 >> Preprocessing symfony
+2024-11-20 14:12:00.634779 ║INFO	║ 23688	║   0.130 >> [Symfony] Registered 0 routes
+2024-11-20 14:12:00.644194 ║INFO	║ 23688	║   0.134 >> Preprocessing laravel
+2024-11-20 14:12:00.652632 ║INFO	║ 23688	║   0.148 >> [Laravel] Registered 0 routes, 0 viewers

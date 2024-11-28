@@ -1,0 +1,70 @@
+2024-11-15T13:29:58.240Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project Smoke
+2024-11-15T13:29:58.241Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-15T13:29:58.242Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-15T13:29:58.243Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-15T13:29:58.243Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 54375
+2024-11-15T13:29:58.243Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-15T13:29:58.254Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-15T13:29:58.266Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-15T13:29:58.266Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-15T13:29:58.266Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-15T13:29:58.302Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-15T13:29:58.303Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-15T13:29:58.303Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-15T13:29:58.398Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 63342
+2024-11-15T13:29:59.106Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-15T13:29:59.318Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-15T13:29:59.319Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-15T13:30:00.378Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:30:00.399Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:30:00.493Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-15T13:30:04.960Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:30:04.964Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:30:04.988Z [ces.aie.AieInitializer.loadPreviouslyMappedProject] INFO No AIE mapped project
+2024-11-15T13:30:04.988Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE Integration initialized
+2024-11-15T13:30:05.004Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-15T13:30:05.006Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-15T13:30:05.021Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:30:05.036Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:30:10.408Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-15T13:30:25.856Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-15T13:30:25.981Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:30:25.984Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:30:26.058Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:30:26.062Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:30:26.089Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:30:26.093Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:31:00.548Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-15T13:31:11.636Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-15T13:31:11.776Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:31:11.779Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:31:11.871Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:31:11.886Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:31:11.902Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:31:11.905Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:35:46.677Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-15T13:35:59.668Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-15T13:35:59.794Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:35:59.810Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:35:59.890Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:35:59.893Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:35:59.922Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:35:59.925Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:36:37.791Z [.ptsecurity.aiintellij.services.ScanRunner.runScan] INFO Start scanning
+2024-11-15T13:36:42.093Z [intellij.services.ScanRunner.handleScanDoneMessage] INFO Scanning was finished
+2024-11-15T13:36:42.216Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:36:42.218Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:36:42.293Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:36:42.297Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:36:42.325Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-15T13:36:42.340Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-15T13:54:16.673Z [ectionManager$initAieUnauthorizedListener$2.invoke] INFO AIE unauthorized: UnauthorizedDescriptor(signOutActor=Client, errorMessage=null)
+2024-11-15T13:54:16.673Z [iintellij.services.aie.AieInitializer.deinitialize] INFO AieInitializer.deinitialize is calling
+2024-11-15T14:23:44.989Z [iintellij.services.aie.AieInitializer.deinitialize] INFO AieInitializer.deinitialize is calling
+2024-11-15T14:23:51.471Z [ces.aie.AieInitializer.loadPreviouslyMappedProject] INFO No AIE mapped project
+2024-11-15T14:23:51.472Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE Integration initialized
+2024-11-15T14:31:51.322Z [ectionManager$initAieUnauthorizedListener$2.invoke] INFO AIE unauthorized: UnauthorizedDescriptor(signOutActor=Client, errorMessage=null)
+2024-11-15T14:31:51.322Z [iintellij.services.aie.AieInitializer.deinitialize] INFO AieInitializer.deinitialize is calling
+2024-11-15T14:49:26.742Z [iintellij.services.aie.AieInitializer.deinitialize] INFO AieInitializer.deinitialize is calling
+2024-11-15T14:49:32.992Z [ces.aie.AieInitializer.loadPreviouslyMappedProject] INFO No AIE mapped project
+2024-11-15T14:49:32.992Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE Integration initialized

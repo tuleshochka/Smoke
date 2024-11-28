@@ -1,0 +1,16 @@
+{
+    "logPanels": [
+        {
+            "panelName": "Analyzer",
+            "pathsToLogs": [
+                "infrastructure.log"
+            ]
+        },
+        {
+            "panelName": "Test",
+            "pathsToLogs": [
+                "process.log"
+            ]
+        }
+    ]
+}

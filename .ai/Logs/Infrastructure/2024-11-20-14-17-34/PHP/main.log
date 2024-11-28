@@ -1,0 +1,47 @@
+2024-11-20 14:17:50.438471 ║INFO	║ 23064	║   0.803 >> Classtree created: True, found 0 classes
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   2.733 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:17:52.368583 ║INFO	║ 23064	║   2.733 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:17:52.368583 ║INFO	║ 23064	║   2.733 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-20 14:17:52.375658 ║INFO	║ 23064	║   2.734 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-20 14:17:52.390979 ║INFO	║ 23064	║   2.734 >> working on C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:17:53.255678 ║INFO	║ 13556	║   0.041 >> Classtree created: True, found 0 classes
+2024-11-20 14:17:53.264092 ║INFO	║ 13556	║   0.050 >> pvf called exit('no domain')
+2024-11-20 14:17:53.264092 ║INFO	║ 21744	║   0.040 >> Classtree created: True, found 0 classes
+2024-11-20 14:17:53.283138 ║INFO	║ 1604	║   0.040 >> Classtree created: True, found 0 classes
+
+POST">\n		Get items by condition: <input type="text" name="condition"/>\n		<input type="submit" name="submit" value="Submit"/>\n	</form>')
+2024-11-20 14:17:53.293247 ║INFO	║ 29264	║   0.054 >> 1 public methods found
+2024-11-20 14:17:53.293247 ║INFO	║ 13556	║   0.072 >> pvf called system(('nslookup ' . $_GET['domain']))
+2024-11-20 14:17:53.293247 ║INFO	║ 17432	║   0.070 >> arg#0 payloadable: True
+2024-11-20 14:17:53.293247 ║INFO	║ 1604	║   0.055 >> pvf called echo(((string)$_GET['a']))
+2024-11-20 14:17:53.314151 ║INFO	║ 1604	║   0.056 >> arg#0 payloadable: True
+
+2024-11-20 14:17:53.323590 ║INFO	║ 21744	║   0.095 >> arg#0 payloadable: False
+2024-11-20 14:17:53.323590 ║INFO	║ 29264	║   0.076 >> 0 methods to scan in pp mode
+2024-11-20 14:17:53.335378 ║INFO	║ 21744	║   0.108 >> pvf called mysql_connect(':3306', '', '')
+2024-11-20 14:17:53.349752 ║INFO	║ 21744	║   0.117 >> arg#0 payloadable: False
+2024-11-20 14:17:53.363390 ║INFO	║ 21744	║   0.132 >> pvf called exit('Could not connect to database')
+2024-11-20 14:17:53.377863 ║INFO	║ 21744	║   0.144 >> arg#0 payloadable: False
+2024-11-20 14:17:53.393647 ║INFO	║ 21744	║   0.161 >> pvf called exit('Could not select database')
+2024-11-20 14:17:53.408456 ║INFO	║ 21744	║   0.176 >> arg#0 payloadable: False
+2024-11-20 14:17:53.420530 ║INFO	║ 21744	║   0.192 >> pvf called exit('Unable to set the character set')
+2024-11-20 14:17:53.434076 ║INFO	║ 21744	║   0.203 >> arg#0 payloadable: False
+2024-11-20 14:17:53.446826 ║INFO	║ 21744	║   0.217 >> pvf called mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))
+2024-11-20 14:17:53.457943 ║INFO	║ 21744	║   0.229 >> arg#0 payloadable: True
+2024-11-20 14:17:54.067165 ║INFO	║ 21744	║   0.848 >> pvf called exit('Query error.')
+2024-11-20 14:17:54.101430 ║INFO	║ 21744	║   0.871 >> arg#0 payloadable: False
+2024-11-20 14:17:54.118983 ║INFO	║ 21744	║   0.885 >> pvf called exit('No item for you with this name.')
+2024-11-20 14:17:54.134027 ║INFO	║ 21744	║   0.901 >> arg#0 payloadable: False
+2024-11-20 14:17:54.150275 ║INFO	║ 21744	║   0.919 >> pvf called echo((('owner: ' . mysql_fetch_assoc({13: mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))})['owner']) . ...))
+2024-11-20 14:17:54.168567 ║INFO	║ 21744	║   0.932 >> arg#0 payloadable: True
+2024-11-20 14:17:54.318364 ║INFO	║ 17432	║   1.104 >> 0 public methods found
+2024-11-20 14:17:54.334033 ║INFO	║ 13556	║   1.107 >> 0 public methods found
+2024-11-20 14:17:54.346396 ║INFO	║ 1604	║   1.104 >> 0 public methods found
+p mode
+2024-11-20 14:17:54.357863 ║INFO	║ 1604	║   1.109 >> 0 actions found
+an in pp mode
+2024-11-20 14:17:54.371060 ║INFO	║ 1604	║   1.121 >> 0 methods to scan in pp mode
+2024-11-20 14:17:54.488254 ║INFO	║ 21744	║   1.269 >> 0 public methods found
+2024-11-20 14:17:54.497608 ║INFO	║ 21744	║   1.269 >> 0 actions found
+2024-11-20 14:17:54.510883 ║INFO	║ 21744	║   1.279 >> 0 methods to scan in pp mode
+2024-11-20 14:18:36.209216 ║INFO	║ 15148	║   0.838 >> Classtree created: True, found 0 classes

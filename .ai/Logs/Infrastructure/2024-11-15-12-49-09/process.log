@@ -1,0 +1,564 @@
+12:49:35.367   INFO  Scanning preparation started.
+12:49:35.408  DEBUG  Previous scan not found. Clear cache of project files dependency relationship.
+12:49:35.495  TRACE  Send message {ScanStarted, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 6309 bytes}.
+12:49:35.495  TRACE  Scan started with project settings:
+{
+  "Id": "caba277e-0087-42e8-b684-3c893d9f7af9",
+  "Name": "Smoke",
+  "CommonSettings": {
+    "Scope": "5669769a8cfe4a96811d536887bdebde",
+    "ProgrammingLanguages": "Php",
+    "ScanAppType": "Configuration, PHP, PmTaint, DependencyCheck",
+    "RootFolder": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke",
+    "JsaScriptingFolder": null,
+    "Site": "http://localhost",
+    "ScanTarget": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke",
+    "ActualScanTarget": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke",
+    "UseSecurityPolicies": false,
+    "UseSastRules": false,
+    "SkipFileFormats": null,
+    "SkipFilesFolders": null,
+    "FileFolderExclusions": "# Ignore IDE specific files\n.idea/\n.vscode/\n.vs/\n\n# Ignore vim files:\n*~\n*.swp\n*.swo\n\n#Ignore git\n.git/\n.gitignore\n.gitmodules\n.gitattributes\n\n## Ignore Logs\n# logs\n# *.log\n\n## Ignore the build directory\n# /dist\n# build/\n# .build/\n# bld/\n# Carthage/Build/\n\n## Ignore temporary directories\n# /tmp\n\n## The file containing environment variables\n# *.env\n\n## Ignore picture files\n# *.gif\n# *.png\n# *.tiff\n# *.bmp\n# *.jpeg\n# *.jpg\n# *.ico\n# *.svg\n# *.pic\n# *.pct\n\n## Ignore language-specific Aspx & CSharp & DotNet\n# [Dd]ebug/\n# [Dd]ebugPublic/\n# [Rr]elease/\n# [Rr]eleases/\n# x64/\n# x86/\n# [Bb]in/\n# [Oo]bj/\n# [Ll]og/\n# [Tt]est[Rr]esult*/\n\n## Ignore language-specific Go\n# vendor/\n# **/*_test.go\n\n## Ignore language-specific JavaScript\n# /out-tsc\n# node_modules/\n# jspm_packages/\n\n## Ignore language-specific ObjectiveC & Swift\n# DerivedData/\n\n## Ignore language-specific Python\n# develop-eggs/\n# downloads/\n# eggs/\n# .eggs/\n# parts/\n# sdist/\n# var/\n# wheels/\n# pip-wheel-metadata/\n# share/python-wheels/\n# *.egg-info/\n# target/\n# .venv/\n# env/\n# .env/\n# venv/\n# ENV/\n# env.bak/\n# venv.bak/",
+    "DisabledTypes": null,
+    "HideSuspectedVulnerabilities": false,
+    "SourceControlSettings": null,
+    "SourceSettings": {
+      "sourceType": 2,
+      "lastDateTimeUpdate": "2024-11-15T06:49:12.3770957Z",
+      "updaterInfo": {
+        "tokenName": null,
+        "email": null,
+        "username": null
+      },
+      "isHidePathAndUser": false,
+      "scanTargetName": "Smoke",
+      "langPercentDistribution": {
+        "None": 77.7777777777778,
+        "Java": 0.0,
+        "JsaNet": 0.0,
+        "VB": 0.0,
+        "Php": 22.2222222222222,
+        "Html": 0.0,
+        "JavaScript": 0.0,
+        "TypeScript": 0.0,
+        "Python": 0.0,
+        "Go": 0.0,
+        "Kotlin": 0.0,
+        "C": 0.0,
+        "CPlusPlus": 0.0,
+        "ObjectiveC": 0.0,
+        "Swift": 0.0,
+        "PlSql": 0.0,
+        "TSql": 0.0,
+        "MySql": 0.0,
+        "Ruby": 0.0,
+        "Solidity": 0.0
+      }
+    },
+    "PreprocessingTimeout": 3600,
+    "SendEmailWithReportsAfterScan": false,
+    "RunAutocheckAfterScan": false,
+    "CompressReport": false,
+    "TempDir": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde",
+    "UseIssueTrackerIntegration": false,
+    "SkipGitIgnoreFiles": true,
+    "DisabledPatterns": null,
+    "EnabledPatterns": null,
+    "ReportMailSenderParameters": null,
+    "IsStaticScanEnabled": true,
+    "IsBlackBoxScanEnabled": false
+  },
+  "BlackBoxSettings": {
+    "Level": 2,
+    "SslCheck": false,
+    "ScanScope": 0,
+    "BlackListedAddresses": null,
+    "WhiteListedAddresses": null,
+    "CustomHeaders": null,
+    "Authentication": null,
+    "ProxySettings": null,
+    "ConfigurationPath": null,
+    "BindAddress": null
+  },
+  "DotNetSettings": {
+    "ProjectType": 0,
+    "SolutionFile": null,
+    "WebSiteFolder": null,
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "GoSettings": {
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "JavaScriptSettings": {
+    "DownloadDependencies": true,
+    "UseTaintAnalysis": true,
+    "UseJsaAnalysis": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "JavaSettings": {
+    "JavaParameters": null,
+    "JavaVersion": 2,
+    "UserPackagePrefixes": null,
+    "UnpackUserPackages": false,
+    "DownloadDependencies": true,
+    "DependenciesPath": null,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "JsaDotNetSettings": {
+    "ProjectType": 0,
+    "SolutionFile": null,
+    "WebSiteFolder": null,
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PhpSettings": {
+    "DownloadDependencies": true,
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PmTaintSettings": {
+    "UsePmAnalysis": true,
+    "UseTaintAnalysis": true,
+    "UseCustomPmRules": false,
+    "UsePublicAnalysisMethod": true,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PythonSettings": {
+    "DownloadDependencies": true,
+    "DependenciesPath": null,
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "RubySettings": {
+    "UsePublicAnalysisMethod": false,
+    "UseEntryPointAnalysisMethod": true,
+    "CustomParameters": null
+  },
+  "PygrepSettings": {
+    "RulesDirPath": null,
+    "CustomParameters": null
+  }
+}
+12:49:35.540  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:35.579  DEBUG  Creating VFS nodes for physPath C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke and vfsPath .
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea : ./.idea
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea\.gitignore : ./.idea/.gitignore
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea\jsonSchemas.xml : ./.idea/jsonSchemas.xml
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea\misc.xml : ./.idea/misc.xml
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea\modules.xml : ./.idea/modules.xml
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea\Smoke.iml : ./.idea/Smoke.iml
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.idea\workspace.xml : ./.idea/workspace.xml
+12:49:35.579  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir : ./dir
+12:49:35.588  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php : ./dir/oscom.php
+12:49:35.588  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php : ./dir/sqli.php
+12:49:35.588  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php : ./dir/xss.php
+12:49:35.588  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc : ./xss.abc
+12:49:35.588  TRACE  Node found C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php : ./xsspm.php
+12:49:35.588  TRACE  Send message {VFS, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 4326 bytes}.
+12:49:35.624   INFO  Computing hash for project tree was started.
+12:49:35.624  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:35.646  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.660  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.676  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.692  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.708  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.724  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.740  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.755  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.770  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.785  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.801  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.817  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.832  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:35.848  DEBUG  Elapsed time of files hash computing: 00:00:00.
+12:49:35.868  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 51 bytes}.
+12:49:35.920  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 51 bytes}.
+12:49:35.937  TRACE  @PmTaintProcessor: Run for execution "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\pm\AI.Taint.Cli.exe" in job "job-9ea66167-9f60-46f9-a370-994fb92e2e50". Start parameters: " --connection-type "Pipe" -p "pipe-5548e6f3-7333-4d8e-a9cb-bdfb57874f1e-pmtaint" --logs-dir "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-12-49-09\PmTaint" --memory 3194".
+12:49:35.937  TRACE  @PmTaintProcessor: Process successful started with pid 16912.
+12:49:35.937  TRACE  @PmTaintProcessor: Waiting for exit of process with pid 16912.
+12:49:35.937  TRACE  @ConfigurationProcessor: Run for execution "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\config\AI.Config.exe" in job "job-0453824e-f04f-4db3-a86a-ae85009ea61c". Start parameters: " --connection-type "Pipe" -p "pipe-deb4ed70-0a12-48f6-be2b-23fac9f77977-configuration"".
+12:49:35.946  TRACE  @ConfigurationProcessor: Process successful started with pid 18800.
+12:49:35.946  TRACE  @ConfigurationProcessor: Waiting for exit of process with pid 18800.
+12:49:35.946  TRACE  @DependencyCheckProcessor: Run for execution "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\jdk1.11\bin\java.exe" in job "job-8d336ef2-d6a4-4315-99a4-3b1c1f37858d". Start parameters: "-jar "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\dependencyCheck\dependency-check-ai-core.jar" --connection-type "Pipe" -p "pipe-0ffe19c4-5578-419a-b407-cb70f2ae33be-dependencycheck" -log-level "Trace" --logs-dir "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-12-49-09\DependencyCheck"".
+12:49:35.946  TRACE  @DependencyCheckProcessor: Process successful started with pid 19992.
+12:49:35.946  TRACE  @DependencyCheckProcessor: Waiting for exit of process with pid 19992.
+12:49:35.946  TRACE  @PHPProcessor: Run for execution "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\php\AI.Php.exe" in job "job-bbd6aaac-6c14-4ac0-a8bf-9e89ed2b9cdd". Start parameters: " --connection-type "Pipe" -p "pipe-b606f75a-60f2-434b-a9ee-7a45329ed0f7-php" -w 7 --logs-dir "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-12-49-09\PHP"".
+12:49:35.992  TRACE  @PHPProcessor: Process successful started with pid 17292.
+12:49:35.992  TRACE  @PHPProcessor: Waiting for exit of process with pid 17292.
+12:49:36.120  TRACE  @ConfigurationProcessor: ConfigurationProcessor started and works on the communication channel "pipe-deb4ed70-0a12-48f6-be2b-23fac9f77977-configuration".
+12:49:36.205  TRACE  @PmTaintProcessor: PmTaintProcessor started and works on the communication channel "pipe-5548e6f3-7333-4d8e-a9cb-bdfb57874f1e-pmtaint".
+12:49:36.358  TRACE  @DependencyCheckProcessor: DependencyCheckProcessor started and works on the communication channel "pipe-0ffe19c4-5578-419a-b407-cb70f2ae33be-dependencycheck".
+12:49:38.540  TRACE  Send message {Delta, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 150 bytes}.
+12:49:38.946  TRACE  @PHPProcessor: PHPProcessor started and works on the communication channel "pipe-b606f75a-60f2-434b-a9ee-7a45329ed0f7-php".
+12:49:38.962  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 51 bytes}.
+12:49:38.997  TRACE  @PHPProcessor: {"Parameters":{"SuperGlobals":null,"AnalysisType":[true,false,false,false],"DownloadDependencies":true,"UnpackUserPackages":false,"SysResourcesConsumption":"High","ChecksToPerform":null,"SiteAddress":"localhost","SiteRootUrl":"http://localhost/","OSType":"Microsoft Windows NT 10.0.22631.0","UseConfiguration":true,"EnvironmentVariables":null,"RootScanFolder":null,"VulnerabilityScheme":false,"CustomRulesFile":null,"ScanType":"Full","LogsDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-15-12-49-09\\PHP","TempDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde\\PHP","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/jsonSchemas.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/misc.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/modules.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/Smoke.iml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml"},{"NodeType":2,"IncludeInScan":true,"NodePath":"./dir","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/oscom.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/sqli.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/xss.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xss.abc","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xsspm.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"}],"AfterCrash":false,"IsIncrementalScan":false}
+12:49:38.997  TRACE  @PHPProcessor: Send message {Initialize, Json, 3974 bytes}. Wait response {InitializeDone}.
+12:49:39.013  TRACE  @PmTaintProcessor: {"Parameters":{"Patterns":[],"PatternLanguages":"Php","TaintLanguages":"None","UsePMCore":true,"UseTaintCore":true,"UseCustomPmRules":false,"AnalysisType":[true,true,false,false],"DownloadDependencies":false,"UnpackUserPackages":false,"SysResourcesConsumption":"High","ChecksToPerform":null,"SiteAddress":"localhost","SiteRootUrl":"http://localhost/","OSType":"Microsoft Windows NT 10.0.22631.0","UseConfiguration":true,"EnvironmentVariables":null,"RootScanFolder":null,"VulnerabilityScheme":false,"CustomRulesFile":null,"ScanType":"Full","LogsDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-15-12-49-09\\PmTaint","TempDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde\\PmTaint","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/jsonSchemas.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/misc.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/modules.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/Smoke.iml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml"},{"NodeType":2,"IncludeInScan":true,"NodePath":"./dir","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/oscom.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/sqli.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/xss.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xss.abc","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xsspm.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"}],"AfterCrash":false,"IsIncrementalScan":false}
+12:49:39.045  TRACE  @PmTaintProcessor: Send message {Initialize, MessagePack, 2743 bytes}. Wait response {InitializeDone}.
+12:49:39.045  TRACE  @ConfigurationProcessor: {"Parameters":{"ConfFiles":null,"ScanType":"Full","LogsDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-15-12-49-09\\Configuration","TempDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde\\Configuration","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/jsonSchemas.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/misc.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/modules.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/Smoke.iml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml"},{"NodeType":2,"IncludeInScan":true,"NodePath":"./dir","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/oscom.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/sqli.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/xss.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xss.abc","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xsspm.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"}],"AfterCrash":false,"IsIncrementalScan":false}
+12:49:39.045  TRACE  @ConfigurationProcessor: Send message {Initialize, Json, 3610 bytes}. Wait response {InitializeDone}.
+12:49:39.056  TRACE  @DependencyCheckProcessor: {"Parameters":{"IsDependencyCheckAutoUpdateEnabled":true,"DependencyCheckAutoUpdateBaseUrl":"http://localhost:5008/api/DataFeeds/%d.json.gz","DependencyCheckAutoUpdateModifiedUrl":"http://localhost:5008/api/DataFeeds/modified.json.gz","DependencyCheckAutoUpdateRetireJsUrl":"http://localhost:5008/api/DataFeeds/jsrepository.json","DependencyCheckDataBaseFolder":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer\\DependencyCheck","AdditionalDependenciesToScanDirectories":[],"ScanType":"Full","LogsDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-15-12-49-09\\DependencyCheck","TempDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde\\DependencyCheck","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/jsonSchemas.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/misc.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/modules.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/Smoke.iml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml"},{"NodeType":2,"IncludeInScan":true,"NodePath":"./dir","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/oscom.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/sqli.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/xss.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xss.abc","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xsspm.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"}],"AfterCrash":false,"IsIncrementalScan":false}
+12:49:39.056  TRACE  @DependencyCheckProcessor: Send message {Initialize, Json, 4073 bytes}. Wait response {InitializeDone}.
+12:49:39.056  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core initialization stage: 00:00:00.0125205.
+12:49:39.056  TRACE  @ConfigurationProcessor: Receive message {InitializeDone, Json}. Data: 
+12:49:39.103  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core initialization stage: 00:00:00.0525665.
+12:49:39.103  TRACE  @DependencyCheckProcessor: Receive message {InitializeDone, ByteArray, 0 bytes}.
+12:49:39.234  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 52 bytes}.
+12:49:39.234  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [2,"",100]
+12:49:39.234  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core initialization stage: 00:00:00.2330230.
+12:49:39.234  TRACE  @PmTaintProcessor: Receive message {InitializeDone, ByteArray, 0 bytes}.
+12:49:39.281  DEBUG  @PHPProcessor: Elapsed time of "PHP" core initialization stage: 00:00:00.2942822.
+12:49:39.305  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 53 bytes}.
+12:49:39.356  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:39.356  TRACE  @PHPProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+12:49:39.356  TRACE  @ConfigurationProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+12:49:39.356  TRACE  @DependencyCheckProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+12:49:39.356  TRACE  @PHPProcessor: Receive message {InitializeDone, Json}. Data: 
+12:49:39.369  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core preprocessing stage: 00:00:00.0029016.
+12:49:39.369  TRACE  @ConfigurationProcessor: Receive message {PrecheckDone, Json}. Data: 
+12:49:41.079  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.079  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 0}
+12:49:41.079  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.100  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 2}
+12:49:41.100  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.115  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 4}
+12:49:41.115  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.131  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 33}
+12:49:41.135  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.135  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 35}
+12:49:41.135  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.162  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 37}
+12:49:41.162  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:41.178  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 39}
+12:49:41.178  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.193  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 41}
+12:49:41.193  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.208  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 43}
+12:49:41.208  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.223  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 45}
+12:49:41.223  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.239  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 47}
+12:49:41.239  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.254  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 50}
+12:49:41.254  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.270  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 52}
+12:49:41.270  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.286  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 55}
+12:49:41.286  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.302  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 57}
+12:49:41.302  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.317  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 60}
+12:49:41.317  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.333  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 63}
+12:49:41.333  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.348  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 65}
+12:49:41.348  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.365  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 68}
+12:49:41.365  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.381  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 71}
+12:49:41.381  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.397  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 73}
+12:49:41.397  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.412  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 76}
+12:49:41.412  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.427  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 78}
+12:49:41.427  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.444  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 81}
+12:49:41.444  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.459  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 84}
+12:49:41.459  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.475  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 86}
+12:49:41.475  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.490  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 89}
+12:49:41.490  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.506  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 92}
+12:49:41.506  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.522  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 94}
+12:49:41.522  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.538  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 97}
+12:49:41.538  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:41.554  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 3, "Value": 100}
+12:49:41.554  DEBUG  @PHPProcessor: Elapsed time of "PHP" core preprocessing stage: 00:00:02.1909898.
+12:49:41.554  TRACE  @PHPProcessor: Receive message {PrecheckDone, Json}. Data: 
+12:49:41.571  TRACE  Send message {Delta, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 129 bytes}.
+12:49:42.040  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core preprocessing stage: 00:00:02.6738125.
+12:49:42.055  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 51 bytes}.
+12:49:42.055  DEBUG  Previous Scan ID: '(null)'
+12:49:42.071  TRACE  @PmTaintProcessor: Send message {Precheck, ByteArray, 0 bytes}. Wait response {PrecheckDone}.
+12:49:42.071  TRACE  @DependencyCheckProcessor: Receive message {PrecheckDone, ByteArray, 0 bytes}.
+12:49:42.071  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:42.098  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [3,"",100]
+12:49:42.098  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core preprocessing stage: 00:00:00.0179411.
+12:49:42.122  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 51 bytes}.
+12:49:42.186  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:42.186  TRACE  @PHPProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+12:49:42.186  TRACE  @PmTaintProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+12:49:42.196  TRACE  @ConfigurationProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+12:49:42.196  TRACE  @DependencyCheckProcessor: Send message {Scan, ByteArray, 0 bytes}. Wait response {ScanDone}.
+12:49:42.196  TRACE  @PmTaintProcessor: Receive message {PrecheckDone, ByteArray, 0 bytes}.
+12:49:42.196  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir", "Status": 2}
+12:49:42.196  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir", "Status": 1}
+12:49:42.196  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 79 bytes}.
+12:49:42.196  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 77 bytes}.
+12:49:42.196  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore", "Status": 2}
+12:49:42.196  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 76 bytes}.
+12:49:42.196  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 75 bytes}.
+12:49:42.225  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"}
+12:49:42.225  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 76 bytes}.
+12:49:42.239  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore", "Status": 1}
+12:49:42.239  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 84 bytes}.
+12:49:42.255  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Status": 2}
+12:49:42.255  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 72 bytes}.
+12:49:42.270  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"}
+12:49:42.270  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 75 bytes}.
+12:49:42.285  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml", "Status": 2}
+12:49:42.285  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 81 bytes}.
+12:49:42.301  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Status": 1}
+12:49:42.301  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 74 bytes}.
+12:49:42.317  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"}
+12:49:42.317  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 71 bytes}.
+12:49:42.332  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml", "Status": 1}
+12:49:42.332  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 77 bytes}.
+12:49:42.348  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Status": 2}
+12:49:42.348  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 71 bytes}.
+12:49:42.363  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"}
+12:49:42.363  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 73 bytes}.
+12:49:42.379  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml", "Status": 2}
+12:49:42.379  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 74 bytes}.
+12:49:42.395  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Status": 1}
+12:49:42.403  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 73 bytes}.
+12:49:42.403  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"2","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"}
+12:49:42.426  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml", "Status": 1}
+12:49:42.426  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 80 bytes}.
+12:49:42.441  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Status": 2}
+12:49:42.441  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 70 bytes}.
+12:49:42.456  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml", "Status": 2}
+12:49:42.456  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 77 bytes}.
+12:49:42.472  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Status": 1}
+12:49:42.472  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 69 bytes}.
+12:49:42.487  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml", "Status": 1}
+12:49:42.487  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 78 bytes}.
+12:49:42.504  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Status": 2}
+12:49:42.504  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 66 bytes}.
+12:49:42.520  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml", "Status": 2}
+12:49:42.520  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 75 bytes}.
+12:49:42.535  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Status": 1}
+12:49:42.535  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 71 bytes}.
+12:49:42.550  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml", "Status": 1}
+12:49:42.550  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 82 bytes}.
+12:49:42.566  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php", "Status": 2}
+12:49:42.573  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 68 bytes}.
+12:49:42.573  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml", "Status": 2}
+12:49:42.573  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 79 bytes}.
+12:49:42.596  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php", "Status": 1}
+12:49:42.596  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke", "Status": 2}
+12:49:42.596  TRACE  @ConfigurationProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke", "Status": 1}
+12:49:42.596  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core scan stage: 00:00:00.4044788.
+12:49:42.596  TRACE  @ConfigurationProcessor: Receive message {ScanDone, Json}. Data: 
+12:49:42.612  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml", "Status": 1}
+12:49:42.612  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 72 bytes}.
+12:49:42.627  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php", "Status": 2}
+12:49:42.627  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 70 bytes}.
+12:49:42.642  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Status": 2}
+12:49:42.642  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 74 bytes}.
+12:49:42.659  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Status": 2}
+12:49:42.659  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 75 bytes}.
+12:49:42.674  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Status": 2}
+12:49:42.674  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 76 bytes}.
+12:49:42.689  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Status": 2}
+12:49:43.236  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:43.250  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 4, "Value": 140}
+12:49:43.379  TRACE  @PHPProcessor: Receive message {RelatedFilesDetected, Json}. Data: {"File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "RelatedFiles": ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"]}
+12:49:43.390  TRACE  @PHPProcessor: Receive message {RelatedFilesDetected, Json}. Data: {"File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "RelatedFiles": ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"]}
+12:49:43.403  TRACE  @PHPProcessor: Receive message {RelatedFilesDetected, Json}. Data: {"File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "RelatedFiles": ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"]}
+12:49:43.436  TRACE  @PHPProcessor: Receive message {RelatedFilesDetected, Json}. Data: {"File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php", "RelatedFiles": ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"]}
+12:49:43.436  TRACE  @PHPProcessor: Receive message {RelatedFilesDetected, Json}. Data: {"File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "RelatedFiles": ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"]}
+12:49:43.536  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:43.546  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",1]
+12:49:43.546  TRACE  Send message {NodesIgnored, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 47 bytes}.
+12:49:43.562  TRACE  @PmTaintProcessor: Receive message {IgnoredNodes, MessagePack}. Data: [["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"]]
+12:49:43.562  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 75 bytes}.
+12:49:43.577  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php",2]
+12:49:43.577  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 74 bytes}.
+12:49:43.592  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php",2]
+12:49:43.592  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 76 bytes}.
+12:49:43.607  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php",2]
+12:49:43.630  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 72 bytes}.
+12:49:43.640  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php",2]
+12:49:43.836  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:43.843  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",75]
+12:49:43.843  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:43.859  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",75]
+12:49:43.859  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:43.874  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",75]
+12:49:43.874  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 71 bytes}.
+12:49:43.889  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php",1]
+12:49:43.889  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 69 bytes}.
+12:49:43.904  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php",1]
+12:49:43.904  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 73 bytes}.
+12:49:43.920  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php",1]
+12:49:43.920  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:43.936  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [4,"",100]
+12:49:43.936  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 72 bytes}.
+12:49:43.951  TRACE  @PmTaintProcessor: Receive message {NodeScanStatus, MessagePack}. Data: ["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php",1]
+12:49:44.002  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core scan stage: 00:00:01.8071841.
+12:49:44.002  TRACE  @PmTaintProcessor: Receive message {ScanDone, ByteArray, 0 bytes}.
+12:49:44.618  TRACE  Send message {Delta, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 129 bytes}.
+12:49:46.302  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 69 bytes}.
+12:49:46.316  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php", "Status": 1}
+12:49:46.446   INFO  @PHPProcessor: Issue "Weakness:Hardcoded Password PM" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+12:49:46.446  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 150 bytes}.
+12:49:46.465  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 712 bytes}.
+12:49:46.465  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"Class": "Weakness", "GroupId": "2f6a561f4b46a4478ca599c80175e6ab", "Id": "2f6a561f4b46a4478ca599c80175e6ab", "IsSuppressed": false, "Type": "Hardcoded Password PM", "Version": 3.0, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 9, "EndColumn": 1, "EndLine": 9, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "define('DB_PASSWORD', '');"}}
+12:49:46.477   INFO  @PHPProcessor: Issue "Weakness:Hardcoded Password PM" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+12:49:46.477  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 150 bytes}.
+12:49:46.502  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 765 bytes}.
+12:49:46.517  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"Class": "Weakness", "GroupId": "d6a6a9795d1861d0376c10e681c90c32", "Id": "d6a6a9795d1861d0376c10e681c90c32", "IsSuppressed": false, "Type": "Hardcoded Password PM", "Version": 3.0, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 22, "EndColumn": 1, "EndLine": 22, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "if (mysql_connect(DB_HOST . ':' . DB_PORT, DB_USER, DB_PASSWORD) === FALSE) {"}}
+12:49:46.933   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./dir/xss.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php"
+
+12:49:46.933  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 148 bytes}.
+12:49:46.969  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 1619 bytes}.
+12:49:46.969  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"AdditionalConditions": "", "BestPlaceToFix": {"Place": {"BeginColumn": 1, "BeginLine": 5, "EndColumn": 1, "EndLine": 5, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Value": "echo $_GET['a'];"}}, "Class": "Vulnerability", "DataTrace": [], "EntryPoint": {"BeginColumn": 1, "BeginLine": 1, "EndColumn": 1, "EndLine": 1, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Value": "<?php"}, "Exploit": {"Parameters": [{"Dependency": "[%3C%3E%2F%28%29]", "Name": "a", "Payload": "<script>alert(1)</script>", "Source": "REQUEST_GET_ARGS", "Value": "{PAYLOAD}", "Vulnerable": true}], "Text": "\nGET /dir/xss.php?a=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1\nHost: localhost\nAccept-Encoding: identity\nConnection: close\n\n", "Type": "HTTP"}, "Function": "echo", "GroupId": "16510437440065481346", "Id": "8de56b8f96bacf5b915d833faa15cf40", "IsSecondOrder": false, "IsSuppressed": false, "IsSuspected": false, "ScanMode": "FromEntryPoint", "StackTrace": "", "TaintDataEntries": [{"BeginColumn": 1, "BeginLine": 5, "EndColumn": 1, "EndLine": 5, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Value": "echo $_GET['a'];"}], "Type": "Cross-site Scripting", "Version": 3.0, "Visualization": null, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 5, "EndColumn": 1, "EndLine": 5, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Value": "echo $_GET['a'];"}}
+12:49:46.977   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./xss.abc"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc"
+
+12:49:46.977  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 144 bytes}.
+12:49:47.004  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 1599 bytes}.
+12:49:47.019  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"AdditionalConditions": "", "BestPlaceToFix": {"Place": {"BeginColumn": 1, "BeginLine": 5, "EndColumn": 1, "EndLine": 5, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Value": "echo $_GET['a'];"}}, "Class": "Vulnerability", "DataTrace": [], "EntryPoint": {"BeginColumn": 1, "BeginLine": 1, "EndColumn": 1, "EndLine": 1, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Value": "<?php"}, "Exploit": {"Parameters": [{"Dependency": "[%3C%3E%2F%28%29]", "Name": "a", "Payload": "<script>alert(1)</script>", "Source": "REQUEST_GET_ARGS", "Value": "{PAYLOAD}", "Vulnerable": true}], "Text": "\nGET /xss.abc?a=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1\nHost: localhost\nAccept-Encoding: identity\nConnection: close\n\n", "Type": "HTTP"}, "Function": "echo", "GroupId": "14177541166013086768", "Id": "4f68a5966dcd9d4511fa816395f5356c", "IsSecondOrder": false, "IsSuppressed": false, "IsSuspected": false, "ScanMode": "FromEntryPoint", "StackTrace": "", "TaintDataEntries": [{"BeginColumn": 1, "BeginLine": 5, "EndColumn": 1, "EndLine": 5, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Value": "echo $_GET['a'];"}], "Type": "Cross-site Scripting", "Version": 3.0, "Visualization": null, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 5, "EndColumn": 1, "EndLine": 5, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Value": "echo $_GET['a'];"}}
+12:49:47.065   INFO  @PHPProcessor: Issue "Vulnerability:OS Commanding" detected for file:
+
+  "./dir/oscom.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php"
+
+12:49:47.065  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 143 bytes}.
+12:49:47.083  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 1638 bytes}.
+12:49:47.098  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"AdditionalConditions": "", "BestPlaceToFix": {"Place": {"BeginColumn": 1, "BeginLine": 11, "EndColumn": 1, "EndLine": 11, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Value": "system(\"nslookup $domain\");"}}, "Class": "Vulnerability", "DataTrace": [], "EntryPoint": {"BeginColumn": 1, "BeginLine": 1, "EndColumn": 1, "EndLine": 1, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Value": "<?php"}, "Exploit": {"Parameters": [{"Dependency": "[%26]", "Name": "domain", "Payload": "&dir&set&whoami&", "Source": "REQUEST_GET_ARGS", "Value": "{PAYLOAD}", "Vulnerable": true}], "Text": "\nGET /dir/oscom.php?domain=%26dir%26set%26whoami%26 HTTP/1.1\nHost: localhost\nAccept-Encoding: identity\nConnection: close\n\n", "Type": "HTTP"}, "Function": "system", "GroupId": "556290100408377814", "Id": "cd184c97b3490b9239341db0e986a95b", "IsSecondOrder": false, "IsSuppressed": false, "IsSuspected": false, "ScanMode": "FromEntryPoint", "StackTrace": "", "TaintDataEntries": [{"BeginColumn": 1, "BeginLine": 10, "EndColumn": 1, "EndLine": 10, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Value": "$domain = $_GET['domain'];"}], "Type": "OS Commanding", "Version": 3.0, "Visualization": null, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 11, "EndColumn": 1, "EndLine": 11, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Value": "system(\"nslookup $domain\");"}}
+12:49:47.272  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 74 bytes}.
+12:49:47.278  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"}
+12:49:47.278  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 73 bytes}.
+12:49:47.292   INFO  @PHPProcessor: Issue "Vulnerability:SQL Injection" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+12:49:47.292  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 142 bytes}.
+12:49:47.292  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"}
+12:49:47.318  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 1950 bytes}.
+12:49:47.333  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"AdditionalConditions": "\n(!(mysql_select_db('') === False))\n(!(mysql_set_charset('utf8') === False))", "BestPlaceToFix": {"Place": {"BeginColumn": 1, "BeginLine": 36, "EndColumn": 1, "EndLine": 36, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$query = \"SELECT * FROM items WHERE $condition\";"}}, "Class": "Vulnerability", "DataTrace": [{"BeginColumn": 1, "BeginLine": 36, "EndColumn": 1, "EndLine": 36, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$query = \"SELECT * FROM items WHERE $condition\";"}], "EntryPoint": {"BeginColumn": 1, "BeginLine": 1, "EndColumn": 1, "EndLine": 1, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "<?php"}, "Exploit": {"Parameters": [{"Dependency": "[%28%29]", "Name": "condition", "Payload": "sleep(5)", "Source": "REQUEST_POST_ARGS", "Value": "{PAYLOAD}", "Vulnerable": true}], "Text": "\nPOST /dir/sqli.php HTTP/1.1\nHost: localhost\nAccept-Encoding: identity\nConnection: close\nContent-Length: 22\nContent-Type: application/x-www-form-urlencoded\n\ncondition=sleep%285%29", "Type": "HTTP"}, "Function": "mysql_query", "GroupId": "11032059658474990043", "Id": "8a172096b8c8d549b7e76346b9814e65", "IsSecondOrder": false, "IsSuppressed": false, "IsSuspected": false, "ScanMode": "FromEntryPoint", "StackTrace": "", "TaintDataEntries": [{"BeginColumn": 1, "BeginLine": 34, "EndColumn": 1, "EndLine": 34, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$condition = $_POST['condition'];"}], "Type": "SQL Injection", "Version": 3.0, "Visualization": null, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 38, "EndColumn": 1, "EndLine": 38, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$result = mysql_query($query);"}}
+12:49:47.333  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:47.349  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 4, "Value": 160}
+12:49:47.349  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 72 bytes}.
+12:49:47.349  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 71 bytes}.
+12:49:47.365  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"}
+12:49:47.365  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 68 bytes}.
+12:49:47.380  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php", "Status": 1}
+12:49:47.385   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+12:49:47.385  TRACE  Send message {NodeIssueLinked, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 149 bytes}.
+12:49:47.385  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"}
+12:49:47.385  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 70 bytes}.
+12:49:47.412  TRACE  Send message {IssueDetected, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 2695 bytes}.
+12:49:47.427  TRACE  @DependencyCheckProcessor: Receive message {NodeScanStatus, Json}. Data: {"Type":"NodeScanStatus","Status":"1","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"}
+12:49:47.427  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core scan stage: 00:00:05.2314367.
+12:49:47.427  TRACE  @DependencyCheckProcessor: Receive message {ScanDone, ByteArray, 0 bytes}.
+12:49:47.443  TRACE  @PHPProcessor: Receive message {IssueDetected, Json}. Data: {"AdditionalConditions": "\n(mysql_fetch_assoc(mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition'])))['owner'] == '<script>alert(1)</script>')\n(!(mysql_num_rows(mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))) === 0))\n(!(mysql_num_rows(mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition']))) === False))\n(!(mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition'])) === False))\n(!(mysql_select_db('') === False))\n(!(mysql_set_charset('utf8') === False))\nmysql_fetch_assoc(mysql_query(('SELECT * FROM items WHERE ' . $_POST['condition'])))", "BestPlaceToFix": {"Place": {"BeginColumn": 1, "BeginLine": 51, "EndColumn": 1, "EndLine": 51, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "echo \"owner: {$itemInfo['owner']}\\n\";"}}, "Class": "Vulnerability", "DataTrace": [{"BeginColumn": 1, "BeginLine": 36, "EndColumn": 1, "EndLine": 36, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$query = \"SELECT * FROM items WHERE $condition\";"}, {"BeginColumn": 1, "BeginLine": 38, "EndColumn": 1, "EndLine": 38, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$result = mysql_query($query);"}, {"BeginColumn": 1, "BeginLine": 50, "EndColumn": 1, "EndLine": 50, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "while($itemInfo = mysql_fetch_assoc($result)) {"}], "EntryPoint": {"BeginColumn": 1, "BeginLine": 1, "EndColumn": 1, "EndLine": 1, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "<?php"}, "Exploit": {"Parameters": [{"Dependency": "[]", "Name": "condition", "Source": "REQUEST_POST_ARGS", "Value": "935137890000", "Vulnerable": false}], "Text": "\nPOST /dir/sqli.php HTTP/1.1\nHost: localhost\nAccept-Encoding: identity\nConnection: close\nContent-Length: 22\nContent-Type: application/x-www-form-urlencoded\n\ncondition=935137890000", "Type": "HTTP"}, "Function": "echo", "GroupId": "1551258752050042216", "Id": "0b8d5ebeebb28a2a6253bc24b68a58bc", "IsSecondOrder": true, "IsSuppressed": false, "IsSuspected": false, "ScanMode": "FromEntryPoint", "StackTrace": "", "TaintDataEntries": [{"BeginColumn": 1, "BeginLine": 34, "EndColumn": 1, "EndLine": 34, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "$condition = $_POST['condition'];"}], "Type": "Cross-site Scripting", "Version": 3.0, "Visualization": null, "VulnerableExpression": {"BeginColumn": 1, "BeginLine": 51, "EndColumn": 1, "EndLine": 51, "File": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Value": "echo \"owner: {$itemInfo['owner']}\\n\";"}}
+12:49:47.443  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 67 bytes}.
+12:49:47.458  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc", "Status": 1}
+12:49:47.458  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 46 bytes}.
+12:49:47.474  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 4, "Value": 180}
+12:49:47.474  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 73 bytes}.
+12:49:47.490  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php", "Status": 1}
+12:49:47.490  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 46 bytes}.
+12:49:47.506  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 4, "Value": 200}
+12:49:47.514  TRACE  Send message {NodeProgress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 72 bytes}.
+12:49:47.514  TRACE  @PHPProcessor: Receive message {NodeScanStatus, Json}. Data: {"PhysicalPath": "C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php", "Status": 1}
+12:49:47.514  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 46 bytes}.
+12:49:47.537  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 4, "Value": 220}
+12:49:47.669  TRACE  Send message {Delta, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 322 bytes}.
+12:49:48.323  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 46 bytes}.
+12:49:48.338  TRACE  @PHPProcessor: Receive message {Progress, Json}. Data: {"Stage": 4, "Value": 240}
+12:49:48.512  DEBUG  @PHPProcessor: Elapsed time of "PHP" core scan stage: 00:00:06.3193743.
+12:49:48.546  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 47 bytes}.
+12:49:48.571  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 49 bytes}.
+12:49:48.591  TRACE  @PHPProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+12:49:48.591  TRACE  @PmTaintProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+12:49:48.591  TRACE  @ConfigurationProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+12:49:48.591  TRACE  @DependencyCheckProcessor: Send message {Finalize, ByteArray, 0 bytes}. Wait response {FinalizeDone}.
+12:49:48.591  TRACE  @PHPProcessor: Receive message {ScanDone, Json}. Data: 
+12:49:48.591  DEBUG  @ConfigurationProcessor: Elapsed time of "Configuration" core finalization stage: 00:00:00.0016372
+12:49:48.591  DEBUG  @DependencyCheckProcessor: Elapsed time of "DependencyCheck" core finalization stage: 00:00:00.0013897
+12:49:48.591  TRACE  @ConfigurationProcessor: Receive message {FinalizeDone, Json}. Data: 
+12:49:48.591  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 50 bytes}.
+12:49:48.591  TRACE  @DependencyCheckProcessor: Receive message {FinalizeDone, ByteArray, 0 bytes}.
+12:49:48.605  TRACE  @PmTaintProcessor: Receive message {Progress, MessagePack}. Data: [5,"",100]
+12:49:48.605  DEBUG  @PmTaintProcessor: Elapsed time of "PmTaint" core finalization stage: 00:00:00.0134715
+12:49:48.605  TRACE  @PmTaintProcessor: Receive message {FinalizeDone, ByteArray, 0 bytes}.
+12:49:48.605  ERROR  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+12:49:48.619  DEBUG  @PHPProcessor: Elapsed time of "PHP" core finalization stage: 00:00:00.0283058
+12:49:48.619  TRACE  @ConfigurationProcessor: "Configuration" core process was stopped. Start parameters: " --connection-type "Pipe" -p "pipe-deb4ed70-0a12-48f6-be2b-23fac9f77977-configuration"".
+12:49:48.619  TRACE  @ConfigurationProcessor: The process tree of job "job-0453824e-f04f-4db3-a86a-ae85009ea61c" successfully terminated. Root process: 18800.
+12:49:48.619  TRACE  @ConfigurationProcessor: ConfigurationProcessor work stopped.
+12:49:48.619  TRACE  @ConfigurationProcessor: Process with pid 18800 successfully terminated.
+12:49:48.634  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 51 bytes}.
+12:49:48.665  TRACE  Send message {Progress, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 45 bytes}.
+12:49:48.743  TRACE  @PHPProcessor: Receive message {FinalizeDone, Json}. Data: 
+12:49:48.743  ERROR  @PHPProcessor: Stopping work of PHPProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+12:49:48.743  TRACE  @PHPProcessor: The process tree of job "job-bbd6aaac-6c14-4ac0-a8bf-9e89ed2b9cdd" successfully terminated. Root process: 17292.
+12:49:48.743  TRACE  @PHPProcessor: "PHP" core process was stopped. Start parameters: " --connection-type "Pipe" -p "pipe-b606f75a-60f2-434b-a9ee-7a45329ed0f7-php" -w 7 --logs-dir "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-12-49-09\PHP"".
+12:49:48.743  TRACE  @PHPProcessor: PHPProcessor work stopped.
+12:49:48.759  TRACE  @PHPProcessor: Process with pid 17292 successfully terminated.
+12:49:48.759  TRACE  Send message {Delta, 6bc0599d-48cd-834f-9cca-d3d32561ed1b, Json, 129 bytes}.
+12:49:48.778   INFO  Terminate scanning...
+12:49:48.778  TRACE  @PmTaintProcessor: Stopping work of PmTaintProcessor...
+12:49:48.778  TRACE  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+12:49:48.778  TRACE  @DependencyCheckProcessor: Stopping work of DependencyCheckProcessor...
+12:49:48.778  TRACE  @PHPProcessor: Stopping work of PHPProcessor...
+12:49:48.778  TRACE  @PmTaintProcessor: The process tree of job "job-9ea66167-9f60-46f9-a370-994fb92e2e50" successfully terminated. Root process: 16912.
+12:49:48.778  TRACE  @PmTaintProcessor: "PmTaint" core process was stopped. Start parameters: " --connection-type "Pipe" -p "pipe-5548e6f3-7333-4d8e-a9cb-bdfb57874f1e-pmtaint" --logs-dir "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-12-49-09\PmTaint" --memory 3194".
+12:49:48.778  TRACE  @ConfigurationProcessor: ConfigurationProcessor work stopped.
+12:49:48.778  TRACE  @DependencyCheckProcessor: "DependencyCheck" core process was stopped. Start parameters: "-jar "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\dependencyCheck\dependency-check-ai-core.jar" --connection-type "Pipe" -p "pipe-0ffe19c4-5578-419a-b407-cb70f2ae33be-dependencycheck" -log-level "Trace" --logs-dir "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-12-49-09\DependencyCheck"".
+12:49:48.778  TRACE  @PHPProcessor: PHPProcessor work stopped.
+12:49:48.778  TRACE  @DependencyCheckProcessor: The process tree of job "job-8d336ef2-d6a4-4315-99a4-3b1c1f37858d" successfully terminated. Root process: 19992.
+12:49:48.778  TRACE  @PmTaintProcessor: PmTaintProcessor work stopped.
+12:49:48.778  TRACE  @DependencyCheckProcessor: DependencyCheckProcessor work stopped.
+12:49:48.778   INFO  Scanning was stopped.
+12:49:48.792  TRACE  @PmTaintProcessor: Process with pid 16912 successfully terminated.
+12:49:48.792  TRACE  @DependencyCheckProcessor: Process with pid 19992 successfully terminated.

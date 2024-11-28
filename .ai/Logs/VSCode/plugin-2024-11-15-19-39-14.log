@@ -1,0 +1,27 @@
+[11/15/2024, 7:39:14 PM] info: Logging was started to file.
+[11/15/2024, 7:39:14 PM] info: Start application inspector initialization
+[11/15/2024, 7:39:14 PM] info: Hide developer mode UI
+[11/15/2024, 7:39:14 PM] info: Infrastructure Configurations: {"port":8000,"infrastructureAssemblyFolderPath":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer","applicationResourcesFolderPath":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer","scanTargetFolderPath":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke","isDebugging":false,"logLevel":{"q8_1":"Error","r8_1":5,"type":5,"key":"Settings.LogLevel.Error.Text"},"logDir":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-15-19-39-14","tipsFoundNotificationThreshold":1000,"similarIssuesFoundNotificationThreshold":1000,"applicationLocalDataFolderPath":"c:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"}
+[11/15/2024, 7:39:14 PM] info: Start infrastructure initialization
+[11/15/2024, 7:39:15 PM] info: Handled new configurationAieIntegrationServerUrl: 
+[11/15/2024, 7:39:15 PM] info: Infrastructure was started
+[11/15/2024, 7:39:19 PM] info: Handled new configurationAieIntegrationServerUrl: https://aie-ub2210-41377.aie.ptsecurity.ru/
+[11/15/2024, 7:39:20 PM] info: Local project wasn't mapped to aie -  initializeIssuesSynchronization is interrupted
+[11/15/2024, 7:39:21 PM] info: Infrastructure was initialized
+[11/15/2024, 7:39:21 PM] info: Infrastructure Installer was deleted
+[11/15/2024, 7:39:21 PM] info: Clean up logs files was started
+[11/15/2024, 7:39:21 PM] info: Clean up logs files was finished
+[11/15/2024, 7:39:22 PM] info: Start rendering scan result. ScanResultId=eda0d760-f5ab-4db8-b280-dfce68c72fb4, ProjectId=5669769a-8cfe-4a96-811d-536887bdebde
+[11/15/2024, 7:39:22 PM] info: Rendering scan result was finished
+[11/15/2024, 7:39:34 PM] info: Start updating filter
+[11/15/2024, 7:39:34 PM] info: The filter has been updated
+[11/15/2024, 7:39:34 PM] info: Start applying filter
+[11/15/2024, 7:39:34 PM] info: The filter has been applied
+[11/15/2024, 7:39:34 PM] info: Start updating filter
+[11/15/2024, 7:39:34 PM] info: The filter has been updated
+[11/15/2024, 7:39:34 PM] info: Start applying filter
+[11/15/2024, 7:39:34 PM] info: The filter has been applied
+[11/15/2024, 7:39:35 PM] info: Start updating filter
+[11/15/2024, 7:39:35 PM] info: The filter has been updated
+[11/15/2024, 7:39:35 PM] info: Start applying filter
+[11/15/2024, 7:39:35 PM] info: The filter has been applied

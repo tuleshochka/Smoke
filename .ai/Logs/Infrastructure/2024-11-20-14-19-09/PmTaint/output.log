@@ -1,0 +1,176 @@
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102048.76953125 / 109.16796875 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:20:26
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.39%
+Tokens time ratio:             00.19%
+ParseTree time ratio:          22.77%
+Ust time ratio:                10.50%
+Match time ratio:              08.49%
+Pattern time ratio:            57.65%
+
+Time elapsed:                  00:03.059
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.26953125 / 109.28125 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:31:22
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.47%
+Tokens time ratio:             00.31%
+ParseTree time ratio:          24.89%
+Ust time ratio:                09.71%
+Match time ratio:              10.87%
+Pattern time ratio:            53.74%
+
+Time elapsed:                  00:03.347
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.26953125 / 109.46484375 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:33:11
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.61%
+Tokens time ratio:             00.42%
+ParseTree time ratio:          28.28%
+Ust time ratio:                09.92%
+Match time ratio:              09.04%
+Pattern time ratio:            51.73%
+
+Time elapsed:                  00:02.456
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.26953125 / 109.06640625 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:33:39
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.46%
+Tokens time ratio:             00.26%
+ParseTree time ratio:          26.03%
+Ust time ratio:                11.02%
+Match time ratio:              08.75%
+Pattern time ratio:            53.48%
+
+Time elapsed:                  00:02.515
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.26953125 / 109.078125 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:34:48
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.48%
+Tokens time ratio:             00.27%
+ParseTree time ratio:          26.21%
+Ust time ratio:                11.18%
+Match time ratio:              08.32%
+Pattern time ratio:            53.53%
+
+Time elapsed:                  00:02.500
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.33203125 / 109.4140625 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:35:35
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.61%
+Tokens time ratio:             00.38%
+ParseTree time ratio:          26.26%
+Ust time ratio:                11.44%
+Match time ratio:              07.13%
+Pattern time ratio:            54.18%
+
+Time elapsed:                  00:02.546
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.26953125 / 108.8203125 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:37:01
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.56%
+Tokens time ratio:             00.25%
+ParseTree time ratio:          24.60%
+Ust time ratio:                10.20%
+Match time ratio:              06.55%
+Pattern time ratio:            57.85%
+
+Time elapsed:                  00:02.727
+
+AI.Taint.CLangs version:       not found or not supported
+AI.Taint version:              2.2.5.0 (11/07/2024 18:13:54)
+OS:                            Microsoft Windows NT 10.0.22631.0
+Config:                        RELEASE no debugger, no obfuscation
+Peak virtual/working set:      2102050.26953125 / 108.4296875 MB, 64-bit
+
+Scan path or file:             C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+Thread count:                  4
+Finish date:                   11/20/2024 14:37:24
+Matches count:                 0 (0 PM + 0 Taint; 0 suppressed)
+Files count:                   4
+Lines/chars count:             77 / 1457
+Patterns count:                928 (227 PM + 701 Taint)
+File time ratio:               00.37%
+Tokens time ratio:             00.17%
+ParseTree time ratio:          25.77%
+Ust time ratio:                09.11%
+Match time ratio:              08.52%
+Pattern time ratio:            56.06%
+
+Time elapsed:                  00:02.473

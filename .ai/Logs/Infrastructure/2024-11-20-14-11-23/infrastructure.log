@@ -1,0 +1,7 @@
+14:11:24.057   INFO  infrastructure starting
+14:11:24.533   INFO  There are 1 suitable migrations
+14:11:24.533   INFO  Migration to '2.3.1' version start
+14:11:24.533   INFO  Migration to '2.3.1' version success complete
+14:11:24.684   INFO  Wait transport disconnecting
+14:11:39.684   INFO  Scan for project 5669769a-8cfe-4a96-811d-536887bdebde started
+14:11:58.501   INFO  Scan for project 5669769a-8cfe-4a96-811d-536887bdebde started

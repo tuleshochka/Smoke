@@ -1,0 +1,34 @@
+14:42:30.631   INFO  infrastructure starting
+14:42:30.801  DEBUG  Initiating infrastructure provisioning.
+14:42:31.202   INFO  There are 1 suitable migrations
+14:42:31.202  DEBUG  Version '2.3.1' with 2 stage(s)
+14:42:31.202   INFO  Migration to '2.3.1' version start
+14:42:31.202   INFO  Migration to '2.3.1' version success complete
+14:42:31.348   INFO  Wait transport disconnecting
+14:42:32.429  DEBUG  Scan result ID: d0e4fedd-137b-4954-8931-b0547328c62e
+14:42:32.554  DEBUG  Start checking connection to AIE with 'https://aie-ub2210-41377.aie.ptsecurity.ru/health/summary' uri
+14:42:33.018  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/currentTime with Id d4c4050b-c668-43f8-9878-01dabe4683d9
+14:42:33.433  DEBUG  Send POST request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/validateToken with Id 20687097-e3a7-43e8-ac86-3344bd8ec6b5
+14:42:33.593  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/currentTime with Id 5cd1da05-7ede-4caf-8f56-ce3490317838
+14:42:33.593  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/currentTime with Id 43b21fe5-17ca-4b18-833e-f24667144b39
+14:42:33.895  DEBUG  Send POST request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/validateToken with Id 8d6ba0ac-62b0-46a3-80de-ac4e27a98d6a
+14:42:34.065  DEBUG  Start notification client reconfiguration
+14:42:34.065  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/currentTime with Id 85d2206d-62cc-46de-b551-36d22262e87b
+14:42:34.248  DEBUG  Send POST request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/validateToken with Id 55170c09-c04c-457f-9eb6-f6b56054268d
+14:42:35.673  DEBUG  Success connect to notifications service. ClientId: 45307925-a8fe-4935-9c04-f4a1582f1391
+14:42:35.673  DEBUG  Subscribe on notification 'IssuesUpdated'
+14:42:35.709  DEBUG  Subscribe on notification 'ProjectMembersChangePermission'
+14:42:35.709  DEBUG  Subscribe on notification 'GlobalMembersChangePermission'
+14:42:35.709  DEBUG  Subscribe on notification 'ScanCompleted'
+14:42:35.709  DEBUG  Start checking connection to AIE with 'https://aie-ub2210-41377.aie.ptsecurity.ru/health/summary' uri
+14:42:35.792  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/versions/server/current with Id c84ac79d-5dc9-4544-81d1-de91eca11d09
+14:42:36.328  DEBUG  synchronization after map was skipped
+14:42:36.328  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/projects/f8e50bef-301d-43ef-8c4f-e8a8ed4ed789/scanResults with Id eaff16dd-f00f-4970-b073-75560a5ae23c
+14:42:37.015  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/projects/f8e50bef-301d-43ef-8c4f-e8a8ed4ed789/scanResults/8065c276-9099-4b18-a959-3b6a395662c7/issues with Id c23071b0-2d33-4775-8857-98afee66e461
+14:42:37.353  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/users/current with Id 2f053e38-8986-43a8-aa6b-1d271c3c6e5b
+14:42:37.936  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/users/b8722fc5-7437-4c3a-a6a5-683090f3d495/permissions with Id e824b4fd-ea55-428a-860f-2c920998c87d
+14:42:38.633  DEBUG  Send GET request https://aie-ub2210-41377.aie.ptsecurity.ru/api/auth/users/b8722fc5-7437-4c3a-a6a5-683090f3d495/permissions/projects with Id 6fb183f7-da3f-489e-937e-a41214ad38f3
+14:42:41.206  DEBUG  Start checking connection to AIE with 'https://aie-ub2210-41377.aie.ptsecurity.ru/health/summary' uri
+14:42:41.736  DEBUG  Connection status to AIE status has not been changed. Status is 'True'
+14:42:46.748  DEBUG  Start checking connection to AIE with 'https://aie-ub2210-41377.aie.ptsecurity.ru/health/summary' uri
+14:42:47.215  DEBUG  Connection status to AIE status has not been changed. Status is 'True'

@@ -1,0 +1,51 @@
+14:11:39.894   INFO  Scanning preparation started.
+14:11:40.144   INFO  Computing hash for project tree was started.
+14:11:47.504   INFO  @PHPProcessor: Issue "Weakness:Hardcoded Password PM" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:11:47.551   INFO  @PHPProcessor: Issue "Weakness:Hardcoded Password PM" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:11:48.322   INFO  @PHPProcessor: Issue "Vulnerability:OS Commanding" detected for file:
+
+  "./dir/oscom.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php"
+
+14:11:48.363   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./xss.abc"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc"
+
+14:11:48.393   INFO  @PHPProcessor: Issue "Vulnerability:SQL Injection" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:11:48.435   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./dir/xss.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php"
+
+14:11:48.476   INFO  @PHPProcessor: Issue "Vulnerability:Cross-site Scripting" detected for file:
+
+  "./dir/sqli.php"
+  "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php"
+
+14:11:50.729  ERROR  @ConfigurationProcessor: Stopping work of ConfigurationProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+14:11:50.801  ERROR  @PHPProcessor: Stopping work of PHPProcessor...
+––– details ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+System.Exception: Pipe disconnected! STATE: Broken
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+14:11:50.810   INFO  Terminate scanning...
+14:11:50.810   INFO  Scanning was stopped.
+14:11:58.592   INFO  Scanning preparation started.
+14:11:58.667   INFO  Computing hash for project tree was started.

@@ -1,0 +1,5 @@
+14:19:06.647   INFO  Scanning preparation started.
+14:19:06.670   INFO  Verifying incremental scanning start.
+14:19:06.821   INFO  Computing hash for project tree was started.
+14:19:07.081   INFO  Skipping incremental scanning...
+14:19:07.111   INFO  Continue common scanning.

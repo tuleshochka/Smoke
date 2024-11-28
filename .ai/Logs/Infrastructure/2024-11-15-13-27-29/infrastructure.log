@@ -1,0 +1,1134 @@
+13:27:29.748   INFO  infrastructure starting
+13:27:29.801  TRACE  Waiting for an infrastructure initialization message.
+13:27:29.891  DEBUG  Initiating infrastructure provisioning.
+13:27:30.171  TRACE  Run for execution "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\utils\descriptionsService\AI.Descriptions.HostedService.exe" in job "job-322716fb-8414-4e13-8a4a-a32c56cfc361". Start parameters: " --port 5009 --feed-folder "C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\feeds" --log-path "C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-15-13-27-29\descriptionsService.log " --log-level Trace".
+13:27:30.189  TRACE  Process successful started with pid 26608.
+13:27:30.189  TRACE  Waiting for exit of process with pid 26608.
+13:27:30.197  TRACE  update feeds started
+13:27:30.197  TRACE  Attempt send update feeds request to service
+13:27:30.246   INFO  There are 1 suitable migrations
+13:27:30.246  DEBUG  Version '2.3.1' with 2 stage(s)
+13:27:30.246   INFO  Migration to '2.3.1' version start
+13:27:30.246   INFO  Migration to '2.3.1' version success complete
+13:27:30.376  TRACE  Send message {Initialized, 1e0c9e44-0c41-a042-9ffd-9bd49941be28, Json, 7 bytes}.
+13:27:30.396   INFO  Wait transport disconnecting
+13:27:30.396  TRACE  Receive message {Initialize, 1e0c9e44-0c41-a042-9ffd-9bd49941be28, Json, 1144 bytes}.
+13:27:30.569  TRACE  Send message {IssueDescriptions, ce205d3b-9fbb-8248-a6f4-936e9f17cebc, Json, 1186979 bytes}.
+13:27:30.569  TRACE  Receive message {GetIssueDescriptions, ce205d3b-9fbb-8248-a6f4-936e9f17cebc, Json, 0 bytes}.
+13:27:31.442  TRACE  Send message {Projects, 1e0ce5d0-972b-a34d-b5d0-29c614dfa85e, Json, 244 bytes}.
+13:27:31.450  TRACE  Receive message {GetProjects, 1e0ce5d0-972b-a34d-b5d0-29c614dfa85e, Json, 0 bytes}.
+13:27:31.562  TRACE  BeforeExecute
+BeginTransactionAsync(Serializable)
+13:27:31.562  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0014314
+
+13:27:31.574  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[ComponentVersionId],
+	[detail].[ScanEnvironmentId],
+	[a_ComponentVersion].[Id],
+	[a_ComponentVersion].[Type],
+	[a_ComponentVersion].[Version]
+FROM
+	(
+		SELECT DISTINCT
+			[t1].[ScanResultId]
+		FROM
+			(
+				SELECT
+					[a_ScanEnvironment].[ScanResultId]
+				FROM
+					[ScanResultEntity] [x]
+						LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+				WHERE
+					[x].[ProjectId] = @id
+				ORDER BY
+					[x].[ScanDate] DESC
+				LIMIT @take
+			) [t1]
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [ScanEnvironmentComponentVersionsEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+		LEFT JOIN [ComponentVersionEntity] [a_ComponentVersion] ON [detail].[ComponentVersionId] = [a_ComponentVersion].[Id]
+
+13:27:31.574  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0053718
+
+13:27:31.588  TRACE  Total Execution Time (Completed) (async): 00:00:00.0209896. Rows Count: 2.
+
+13:27:31.588  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[Id],
+	[detail].[ScanEnvironmentId],
+	[detail].[ScanAppType],
+	[detail].[Hash]
+FROM
+	(
+		SELECT DISTINCT
+			[t1].[ScanResultId]
+		FROM
+			(
+				SELECT
+					[a_ScanEnvironment].[ScanResultId]
+				FROM
+					[ScanResultEntity] [x]
+						LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+				WHERE
+					[x].[ProjectId] = @id
+				ORDER BY
+					[x].[ScanDate] DESC
+				LIMIT @take
+			) [t1]
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [SastHashesEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+
+13:27:31.588  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0006429
+
+13:27:31.588  TRACE  Total Execution Time (Completed) (async): 00:00:00.0118549. Rows Count: 5.
+
+13:27:31.604  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[x].[Id],
+	[x].[ScanChainId],
+	[x].[ProjectId],
+	[x].[SettingsId],
+	[x].[Version],
+	[x].[ScanDate],
+	[x].[PreviousScanResultId],
+	[x].[IsRunFromQueue],
+	[a_Progress].[ScanResultId],
+	[a_Progress].[Stage],
+	[a_Progress].[SubStage],
+	[a_Progress].[Value],
+	[a_Statistic].[ScanResultId],
+	[a_Statistic].[State],
+	[a_Statistic].[PolicyState],
+	[a_Statistic].[ScanDurationRaw],
+	[a_Statistic].[HighLevelVulnerabilityCount],
+	[a_Statistic].[MediumLevelVulnerabilityCount],
+	[a_Statistic].[LowLevelVulnerabilityCount],
+	[a_Statistic].[PotentialVulnerabilityCount],
+	[a_Statistic].[TotalBlackBoxVulnerabilityCount],
+	[a_Statistic].[TotalStaticVulnerabilityCount],
+	[a_Statistic].[TotalVulnerabilityCount],
+	[a_Statistic].[TotalFileCount],
+	[a_Statistic].[TotalUrlCount],
+	[a_Statistic].[ScannedUrlCount],
+	[a_Statistic].[ScannedFileCount],
+	[a_ScanEnvironment].[ScanResultId],
+	[a_ScanEnvironment].[InfrastructureVersionId],
+	[a_ScanEnvironment].[InstallatorVersionId],
+	[a_ScanEnvironment].[ClientVersionId],
+	[a_ScanEnvironment].[PmHash],
+	[a_ScanEnvironment].[FullRescanOnNewFilesAdded],
+	[a_InfrastructureVersion].[Id],
+	[a_InfrastructureVersion].[Type],
+	[a_InfrastructureVersion].[Version],
+	[a_InstallatorVersion].[Id],
+	[a_InstallatorVersion].[Type],
+	[a_InstallatorVersion].[Version],
+	[a_ClientVersion].[Id],
+	[a_ClientVersion].[Type],
+	[a_ClientVersion].[Version]
+FROM
+	[ScanResultEntity] [x]
+		LEFT JOIN [ScanResultProgressEntity] [a_Progress] ON [x].[Id] = [a_Progress].[ScanResultId]
+		LEFT JOIN [ScanResultStatisticEntity] [a_Statistic] ON [x].[Id] = [a_Statistic].[ScanResultId]
+		LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		LEFT JOIN [ComponentVersionEntity] [a_ClientVersion] ON [a_ScanEnvironment].[ClientVersionId] = [a_ClientVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InstallatorVersion] ON [a_ScanEnvironment].[InstallatorVersionId] = [a_InstallatorVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InfrastructureVersion] ON [a_ScanEnvironment].[InfrastructureVersionId] = [a_InfrastructureVersion].[Id]
+WHERE
+	[x].[ProjectId] = @id
+ORDER BY
+	[x].[ScanDate] DESC
+LIMIT @take
+
+13:27:31.604  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0008872
+
+13:27:31.604  TRACE  Total Execution Time (Completed) (async): 00:00:00.0097722. Rows Count: 0.
+
+13:27:31.604  TRACE  BeforeExecute
+DisposeTransactionAsync
+13:27:31.604  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0006918
+
+13:27:31.619  DEBUG  Scan result ID: 4353f4d2-4659-4046-80d0-96152006c012
+13:27:31.619  TRACE  Send message {ScanResult, 3adcf186-43a9-3d4d-8e41-1a05ef52f4a2, Json, 1265 bytes}.
+13:27:31.640  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:31.640  TRACE  Query Execution Time (AfterExecute): 00:00:00.0004353
+
+13:27:31.640  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_AssistantTipEntity].[Id],
+	[detail].[IssueHash],
+	[detail].[AssistantTipEntityId],
+	[detail].[Status]
+FROM
+	[AssistantTipEntity] [lw_AssistantTipEntity]
+		INNER JOIN [AssistantTipIssueEntity] [detail] ON [lw_AssistantTipEntity].[Id] = [detail].[AssistantTipEntityId]
+
+13:27:31.640  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003430
+
+13:27:31.640  TRACE  Total Execution Time (Completed): 00:00:00.0024992. Rows Count: 3.
+
+13:27:31.640  TRACE  BeforeExecute
+DisposeTransaction
+13:27:31.640  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002335
+
+13:27:31.640  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[Type],
+	[t1].[State],
+	[t1].[Metadata],
+	[t1].[UniqueIssuesCount]
+FROM
+	[AssistantTipEntity] [t1]
+
+13:27:31.640  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003566
+
+13:27:31.640  TRACE  Total Execution Time (Completed): 00:00:00.0029056. Rows Count: 1.
+
+13:27:31.651  TRACE  Send message {AssistantNotification, debc6917-8f43-4958-8414-3581d1e9a815, Json, 171 bytes}.
+13:27:31.651  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:31.651  TRACE  Query Execution Time (AfterExecute): 00:00:00.0004604
+
+13:27:31.651  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_AssistantTipEntity].[Id],
+	[detail].[IssueHash],
+	[detail].[AssistantTipEntityId],
+	[detail].[Status]
+FROM
+	[AssistantTipEntity] [lw_AssistantTipEntity]
+		INNER JOIN [AssistantTipIssueEntity] [detail] ON [lw_AssistantTipEntity].[Id] = [detail].[AssistantTipEntityId]
+
+13:27:31.651  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002482
+
+13:27:31.651  TRACE  Total Execution Time (Completed): 00:00:00.0004891. Rows Count: 3.
+
+13:27:31.651  TRACE  BeforeExecute
+DisposeTransaction
+13:27:31.651  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002032
+
+13:27:31.651  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[Type],
+	[t1].[State],
+	[t1].[Metadata],
+	[t1].[UniqueIssuesCount]
+FROM
+	[AssistantTipEntity] [t1]
+
+13:27:31.651  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002516
+
+13:27:31.651  TRACE  Total Execution Time (Completed): 00:00:00.0004663. Rows Count: 1.
+
+13:27:31.668  TRACE  Send message {AssistantNotification, 7479a69d-f904-4345-8715-745f20230413, Json, 202 bytes}.
+13:27:31.668  TRACE  Receive message {GetLastScanResult, 3adcf186-43a9-3d4d-8e41-1a05ef52f4a2, Json, 38 bytes}.
+13:27:31.668  TRACE  Send message {EnterpriseIntegrationInfo, 633ca406-de58-ab4c-839e-28569284f399, Json, 69 bytes}.
+13:27:31.668  TRACE  Receive message {EnterpriseGetState, 633ca406-de58-ab4c-839e-28569284f399, Json, 0 bytes}.
+13:27:31.688  TRACE  BeforeExecute
+BeginTransactionAsync(Serializable)
+13:27:31.688  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0005296
+
+13:27:31.688  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[lw_VfsEntity].[Id],
+	[detail].[VfsId],
+	[detail].[NodePath],
+	[detail].[PhysicalPath],
+	[detail].[MaxIssueLevel],
+	[detail].[ScanByCores],
+	[detail].[ScanningByCores],
+	[detail].[ScannedByCores],
+	[detail].[NodeType],
+	[detail].[IncludeInScan],
+	[detail].[LifeTimeStatus],
+	[detail].[LastModifiedDate],
+	[detail].[Hash]
+FROM
+	(
+		SELECT DISTINCT
+			[t1].[Id]
+		FROM
+			(
+				SELECT
+					[x].[Id]
+				FROM
+					[VfsEntity] [x]
+				WHERE
+					[x].[ScanResultId] = @id
+				LIMIT @take
+			) [t1]
+	) [lw_VfsEntity]
+		INNER JOIN [VfsNodeEntity] [detail] ON [lw_VfsEntity].[Id] = [detail].[VfsId]
+
+13:27:31.688  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0005120
+
+13:27:31.688  TRACE  Total Execution Time (Completed) (async): 00:00:00.0045300. Rows Count: 14.
+
+13:27:31.688  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[x].[Id],
+	[x].[ScanResultId],
+	[x].[RootNodePath]
+FROM
+	[VfsEntity] [x]
+WHERE
+	[x].[ScanResultId] = @id
+LIMIT @take
+
+13:27:31.688  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0003109
+
+13:27:31.688  TRACE  Total Execution Time (Completed) (async): 00:00:00.0016869. Rows Count: 0.
+
+13:27:31.688  TRACE  BeforeExecute
+DisposeTransactionAsync
+13:27:31.696  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0002431
+
+13:27:31.719  TRACE  BeforeExecute
+BeginTransactionAsync(Serializable)
+13:27:31.719  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0004462
+
+13:27:31.719  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[ComponentVersionId],
+	[detail].[ScanEnvironmentId],
+	[a_ComponentVersion].[Id],
+	[a_ComponentVersion].[Type],
+	[a_ComponentVersion].[Version]
+FROM
+	(
+		SELECT DISTINCT
+			[t1].[ScanResultId]
+		FROM
+			(
+				SELECT
+					[a_ScanEnvironment].[ScanResultId]
+				FROM
+					[ScanResultEntity] [x]
+						LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+				WHERE
+					[x].[Id] = @id
+				LIMIT @take
+			) [t1]
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [ScanEnvironmentComponentVersionsEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+		LEFT JOIN [ComponentVersionEntity] [a_ComponentVersion] ON [detail].[ComponentVersionId] = [a_ComponentVersion].[Id]
+
+13:27:31.719  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0004273
+
+13:27:31.719  TRACE  Total Execution Time (Completed) (async): 00:00:00.0018859. Rows Count: 2.
+
+13:27:31.719  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @take  -- Int32
+SET     @take = 1
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[Id],
+	[detail].[ScanEnvironmentId],
+	[detail].[ScanAppType],
+	[detail].[Hash]
+FROM
+	(
+		SELECT DISTINCT
+			[t1].[ScanResultId]
+		FROM
+			(
+				SELECT
+					[a_ScanEnvironment].[ScanResultId]
+				FROM
+					[ScanResultEntity] [x]
+						LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+				WHERE
+					[x].[Id] = @id
+				LIMIT @take
+			) [t1]
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [SastHashesEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+
+13:27:31.719  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0003075
+
+13:27:31.719  TRACE  Total Execution Time (Completed) (async): 00:00:00.0014517. Rows Count: 5.
+
+13:27:31.719  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @take  -- Int32
+SET     @take = 2
+
+SELECT
+	[x].[Id],
+	[x].[ScanChainId],
+	[x].[ProjectId],
+	[x].[SettingsId],
+	[x].[Version],
+	[x].[ScanDate],
+	[x].[PreviousScanResultId],
+	[x].[IsRunFromQueue],
+	[a_Progress].[ScanResultId],
+	[a_Progress].[Stage],
+	[a_Progress].[SubStage],
+	[a_Progress].[Value],
+	[a_Statistic].[ScanResultId],
+	[a_Statistic].[State],
+	[a_Statistic].[PolicyState],
+	[a_Statistic].[ScanDurationRaw],
+	[a_Statistic].[HighLevelVulnerabilityCount],
+	[a_Statistic].[MediumLevelVulnerabilityCount],
+	[a_Statistic].[LowLevelVulnerabilityCount],
+	[a_Statistic].[PotentialVulnerabilityCount],
+	[a_Statistic].[TotalBlackBoxVulnerabilityCount],
+	[a_Statistic].[TotalStaticVulnerabilityCount],
+	[a_Statistic].[TotalVulnerabilityCount],
+	[a_Statistic].[TotalFileCount],
+	[a_Statistic].[TotalUrlCount],
+	[a_Statistic].[ScannedUrlCount],
+	[a_Statistic].[ScannedFileCount],
+	[a_ScanEnvironment].[ScanResultId],
+	[a_ScanEnvironment].[InfrastructureVersionId],
+	[a_ScanEnvironment].[InstallatorVersionId],
+	[a_ScanEnvironment].[ClientVersionId],
+	[a_ScanEnvironment].[PmHash],
+	[a_ScanEnvironment].[FullRescanOnNewFilesAdded],
+	[a_InfrastructureVersion].[Id],
+	[a_InfrastructureVersion].[Type],
+	[a_InfrastructureVersion].[Version],
+	[a_InstallatorVersion].[Id],
+	[a_InstallatorVersion].[Type],
+	[a_InstallatorVersion].[Version],
+	[a_ClientVersion].[Id],
+	[a_ClientVersion].[Type],
+	[a_ClientVersion].[Version]
+FROM
+	[ScanResultEntity] [x]
+		LEFT JOIN [ScanResultProgressEntity] [a_Progress] ON [x].[Id] = [a_Progress].[ScanResultId]
+		LEFT JOIN [ScanResultStatisticEntity] [a_Statistic] ON [x].[Id] = [a_Statistic].[ScanResultId]
+		LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		LEFT JOIN [ComponentVersionEntity] [a_ClientVersion] ON [a_ScanEnvironment].[ClientVersionId] = [a_ClientVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InstallatorVersion] ON [a_ScanEnvironment].[InstallatorVersionId] = [a_InstallatorVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InfrastructureVersion] ON [a_ScanEnvironment].[InfrastructureVersionId] = [a_InfrastructureVersion].[Id]
+WHERE
+	[x].[Id] = @id
+LIMIT @take
+
+13:27:31.719  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0003902
+
+13:27:31.729  TRACE  Total Execution Time (Completed) (async): 00:00:00.0045785. Rows Count: 1.
+
+13:27:31.729  TRACE  BeforeExecute
+DisposeTransactionAsync
+13:27:31.729  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0002346
+
+13:27:31.729  TRACE  Send message {ScanResultVFS, fee3d1ce-75ae-404e-8ed0-2e3d9523533d, Json, 4632 bytes}.
+13:27:31.729  TRACE  Receive message {GetScanResultVFS, fee3d1ce-75ae-404e-8ed0-2e3d9523533d, Json, 106 bytes}.
+13:27:31.729  TRACE  Send message {EnterpriseIntegrationInfo, 5f88132f-737f-f046-8a90-0bae1fa7668f, Json, 69 bytes}.
+13:27:31.729  TRACE  Receive message {TryInitializeEnterpriseIntegration, 5f88132f-737f-f046-8a90-0bae1fa7668f, Json, 0 bytes}.
+13:27:31.742  TRACE  BeforeExecute
+BeginTransactionAsync(Unspecified)
+13:27:31.742  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0004573
+
+13:27:31.742  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[ComponentVersionId],
+	[detail].[ScanEnvironmentId],
+	[a_ComponentVersion].[Id],
+	[a_ComponentVersion].[Type],
+	[a_ComponentVersion].[Version]
+FROM
+	(
+		SELECT DISTINCT
+			[a_ScanEnvironment].[ScanResultId]
+		FROM
+			[ScanResultEntity] [t1]
+				LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [t1].[Id] = [a_ScanEnvironment].[ScanResultId]
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [ScanEnvironmentComponentVersionsEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+		LEFT JOIN [ComponentVersionEntity] [a_ComponentVersion] ON [detail].[ComponentVersionId] = [a_ComponentVersion].[Id]
+
+13:27:31.742  TRACE  Query Execution Time (AfterExecute): 00:00:00.0005478
+
+13:27:31.742  TRACE  Total Execution Time (Completed): 00:00:00.0018640. Rows Count: 2.
+
+13:27:31.742  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[Id],
+	[detail].[ScanEnvironmentId],
+	[detail].[ScanAppType],
+	[detail].[Hash]
+FROM
+	(
+		SELECT DISTINCT
+			[a_ScanEnvironment].[ScanResultId]
+		FROM
+			[ScanResultEntity] [t1]
+				LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [t1].[Id] = [a_ScanEnvironment].[ScanResultId]
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [SastHashesEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+
+13:27:31.742  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002859
+
+13:27:31.759  TRACE  Total Execution Time (Completed): 00:00:00.0013441. Rows Count: 5.
+
+13:27:31.759  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[ScanChainId],
+	[t1].[ProjectId],
+	[t1].[SettingsId],
+	[t1].[Version],
+	[t1].[ScanDate],
+	[t1].[PreviousScanResultId],
+	[t1].[IsRunFromQueue],
+	[a_Progress].[ScanResultId],
+	[a_Progress].[Stage],
+	[a_Progress].[SubStage],
+	[a_Progress].[Value],
+	[a_Statistic].[ScanResultId],
+	[a_Statistic].[State],
+	[a_Statistic].[PolicyState],
+	[a_Statistic].[ScanDurationRaw],
+	[a_Statistic].[HighLevelVulnerabilityCount],
+	[a_Statistic].[MediumLevelVulnerabilityCount],
+	[a_Statistic].[LowLevelVulnerabilityCount],
+	[a_Statistic].[PotentialVulnerabilityCount],
+	[a_Statistic].[TotalBlackBoxVulnerabilityCount],
+	[a_Statistic].[TotalStaticVulnerabilityCount],
+	[a_Statistic].[TotalVulnerabilityCount],
+	[a_Statistic].[TotalFileCount],
+	[a_Statistic].[TotalUrlCount],
+	[a_Statistic].[ScannedUrlCount],
+	[a_Statistic].[ScannedFileCount],
+	[a_ScanEnvironment].[ScanResultId],
+	[a_ScanEnvironment].[InfrastructureVersionId],
+	[a_ScanEnvironment].[InstallatorVersionId],
+	[a_ScanEnvironment].[ClientVersionId],
+	[a_ScanEnvironment].[PmHash],
+	[a_ScanEnvironment].[FullRescanOnNewFilesAdded],
+	[a_InfrastructureVersion].[Id],
+	[a_InfrastructureVersion].[Type],
+	[a_InfrastructureVersion].[Version],
+	[a_InstallatorVersion].[Id],
+	[a_InstallatorVersion].[Type],
+	[a_InstallatorVersion].[Version],
+	[a_ClientVersion].[Id],
+	[a_ClientVersion].[Type],
+	[a_ClientVersion].[Version]
+FROM
+	[ScanResultEntity] [t1]
+		LEFT JOIN [ScanResultProgressEntity] [a_Progress] ON [t1].[Id] = [a_Progress].[ScanResultId]
+		LEFT JOIN [ScanResultStatisticEntity] [a_Statistic] ON [t1].[Id] = [a_Statistic].[ScanResultId]
+		LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [t1].[Id] = [a_ScanEnvironment].[ScanResultId]
+		LEFT JOIN [ComponentVersionEntity] [a_ClientVersion] ON [a_ScanEnvironment].[ClientVersionId] = [a_ClientVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InstallatorVersion] ON [a_ScanEnvironment].[InstallatorVersionId] = [a_InstallatorVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InfrastructureVersion] ON [a_ScanEnvironment].[InfrastructureVersionId] = [a_InfrastructureVersion].[Id]
+
+13:27:31.759  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003491
+
+13:27:31.759  TRACE  Total Execution Time (Completed): 00:00:00.0056067. Rows Count: 1.
+
+13:27:31.759  TRACE  BeforeExecute
+DisposeTransactionAsync
+13:27:31.759  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0002868
+
+13:27:31.759  TRACE  Send message {CleanUpScanResultsDone, 62f28f4a-1533-c44a-8162-49149011f3fc, Json, 7 bytes}.
+13:27:31.759  TRACE  Receive message {CleanUpScanResults, 62f28f4a-1533-c44a-8162-49149011f3fc, Json, 77 bytes}.
+13:27:31.759  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @take  -- Int32
+SET     @take = 2
+
+SELECT
+	[x].[Id],
+	[x].[ScanChainId],
+	[x].[ProjectId],
+	[x].[SettingsId],
+	[x].[Version],
+	[x].[ScanDate],
+	[x].[PreviousScanResultId],
+	[x].[IsRunFromQueue]
+FROM
+	[ScanResultEntity] [x]
+WHERE
+	[x].[Id] = @id
+LIMIT @take
+
+13:27:31.759  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0005198
+
+13:27:31.774  TRACE  Total Execution Time (Completed) (async): 00:00:00.0019928. Rows Count: 1.
+
+13:27:31.791  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @id  -- Guid
+SET     @id = X'D2F453435946464080D096152006C012'
+DECLARE @scanDate  -- DateTime
+SET     @scanDate = '2024-11-15 06:49:34.797'
+
+SELECT
+	[x].[Id]
+FROM
+	[ScanResultEntity] [x]
+WHERE
+	[x].[ScanChainId] = @id AND DateTime([x].[ScanDate]) <= DateTime(@scanDate)
+
+13:27:31.791  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0010973
+
+13:27:31.791  TRACE  Total Execution Time (Completed) (async): 00:00:00.0072753. Rows Count: 1.
+
+13:27:31.818  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+
+SELECT
+	[x].[Id],
+	[x].[ScanResultId],
+	[x].[Key],
+	[x].[IssueType],
+	[x].[ApprovalState],
+	[x].[Level],
+	[x].[ObsoleteInScanResultId],
+	[x].[IsNewInScanResultId],
+	[x].[Language],
+	[x].[ScanAppType],
+	[x].[Data]
+FROM
+	[IssueEntity] [x]
+WHERE
+	[x].[ScanResultId] IN (X'D2F453435946464080D096152006C012') AND
+	([x].[ObsoleteInScanResultId] IS NULL OR ([x].[ObsoleteInScanResultId] NOT IN (X'D2F453435946464080D096152006C012') OR [x].[ObsoleteInScanResultId] IS NULL))
+
+13:27:31.818  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0006430
+
+13:27:31.822  TRACE  Total Execution Time (Completed) (async): 00:00:00.0070958. Rows Count: 7.
+
+13:27:31.900  TRACE  Send message {Issues, 7ea11c66-05f6-214b-954f-fadcb8fbd877, Json, 10968 bytes}.
+13:27:31.900  TRACE  Receive message {GetIssues, 7ea11c66-05f6-214b-954f-fadcb8fbd877, Json, 106 bytes}.
+13:27:31.924  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:31.924  TRACE  Query Execution Time (AfterExecute): 00:00:00.0005751
+
+13:27:31.924  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[ComponentVersionId],
+	[detail].[ScanEnvironmentId],
+	[a_ComponentVersion].[Id],
+	[a_ComponentVersion].[Type],
+	[a_ComponentVersion].[Version]
+FROM
+	(
+		SELECT DISTINCT
+			[a_ScanEnvironment].[ScanResultId]
+		FROM
+			[ScanResultEntity] [x]
+				LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		WHERE
+			[x].[ProjectId] = @id
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [ScanEnvironmentComponentVersionsEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+		LEFT JOIN [ComponentVersionEntity] [a_ComponentVersion] ON [detail].[ComponentVersionId] = [a_ComponentVersion].[Id]
+
+13:27:31.924  TRACE  Query Execution Time (AfterExecute): 00:00:00.0004898
+
+13:27:31.924  TRACE  Total Execution Time (Completed): 00:00:00.0022915. Rows Count: 2.
+
+13:27:31.924  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[Id],
+	[detail].[ScanEnvironmentId],
+	[detail].[ScanAppType],
+	[detail].[Hash]
+FROM
+	(
+		SELECT DISTINCT
+			[a_ScanEnvironment].[ScanResultId]
+		FROM
+			[ScanResultEntity] [x]
+				LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		WHERE
+			[x].[ProjectId] = @id
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [SastHashesEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+
+13:27:31.924  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003902
+
+13:27:31.924  TRACE  Total Execution Time (Completed): 00:00:00.0019954. Rows Count: 5.
+
+13:27:31.930  TRACE  BeforeExecute
+DisposeTransaction
+13:27:31.930  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002636
+
+13:27:31.930  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+
+SELECT
+	[x].[Id],
+	[x].[ScanChainId],
+	[x].[ProjectId],
+	[x].[SettingsId],
+	[x].[Version],
+	[x].[ScanDate],
+	[x].[PreviousScanResultId],
+	[x].[IsRunFromQueue],
+	[a_Progress].[ScanResultId],
+	[a_Progress].[Stage],
+	[a_Progress].[SubStage],
+	[a_Progress].[Value],
+	[a_Statistic].[ScanResultId],
+	[a_Statistic].[State],
+	[a_Statistic].[PolicyState],
+	[a_Statistic].[ScanDurationRaw],
+	[a_Statistic].[HighLevelVulnerabilityCount],
+	[a_Statistic].[MediumLevelVulnerabilityCount],
+	[a_Statistic].[LowLevelVulnerabilityCount],
+	[a_Statistic].[PotentialVulnerabilityCount],
+	[a_Statistic].[TotalBlackBoxVulnerabilityCount],
+	[a_Statistic].[TotalStaticVulnerabilityCount],
+	[a_Statistic].[TotalVulnerabilityCount],
+	[a_Statistic].[TotalFileCount],
+	[a_Statistic].[TotalUrlCount],
+	[a_Statistic].[ScannedUrlCount],
+	[a_Statistic].[ScannedFileCount],
+	[a_ScanEnvironment].[ScanResultId],
+	[a_ScanEnvironment].[InfrastructureVersionId],
+	[a_ScanEnvironment].[InstallatorVersionId],
+	[a_ScanEnvironment].[ClientVersionId],
+	[a_ScanEnvironment].[PmHash],
+	[a_ScanEnvironment].[FullRescanOnNewFilesAdded],
+	[a_InfrastructureVersion].[Id],
+	[a_InfrastructureVersion].[Type],
+	[a_InfrastructureVersion].[Version],
+	[a_InstallatorVersion].[Id],
+	[a_InstallatorVersion].[Type],
+	[a_InstallatorVersion].[Version],
+	[a_ClientVersion].[Id],
+	[a_ClientVersion].[Type],
+	[a_ClientVersion].[Version]
+FROM
+	[ScanResultEntity] [x]
+		LEFT JOIN [ScanResultProgressEntity] [a_Progress] ON [x].[Id] = [a_Progress].[ScanResultId]
+		LEFT JOIN [ScanResultStatisticEntity] [a_Statistic] ON [x].[Id] = [a_Statistic].[ScanResultId]
+		LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		LEFT JOIN [ComponentVersionEntity] [a_ClientVersion] ON [a_ScanEnvironment].[ClientVersionId] = [a_ClientVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InstallatorVersion] ON [a_ScanEnvironment].[InstallatorVersionId] = [a_InstallatorVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InfrastructureVersion] ON [a_ScanEnvironment].[InfrastructureVersionId] = [a_InfrastructureVersion].[Id]
+WHERE
+	[x].[ProjectId] = @id
+
+13:27:31.930  TRACE  Query Execution Time (AfterExecute): 00:00:00.0006118
+
+13:27:31.930  TRACE  Total Execution Time (Completed): 00:00:00.0064850. Rows Count: 1.
+
+13:27:31.961  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @isSuppressed  -- Boolean
+SET     @isSuppressed = 0
+
+SELECT
+	[x].[ScanResultId],
+	[x].[Level],
+	Sum([x].[Count])
+FROM
+	[IssueStatisticEntity] [x]
+WHERE
+	[x].[ScanResultId] IN (X'D2F453435946464080D096152006C012') AND
+	[x].[State] <> 2 AND [x].[IsSuppressed] = @isSuppressed
+GROUP BY
+	[x].[ScanResultId],
+	[x].[Level]
+
+13:27:31.961  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0006480
+
+13:27:31.961  TRACE  Total Execution Time (Completed) (async): 00:00:00.0021900. Rows Count: 3.
+
+13:27:31.961  TRACE  Send message {ScanResults, 554d6b9f-fe7e-f045-936f-a0be7ab5040d, Json, 1268 bytes}.
+13:27:31.981  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:31.981  TRACE  Query Execution Time (AfterExecute): 00:00:00.0008609
+
+13:27:31.981  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_AssistantTipEntity].[Id],
+	[detail].[IssueHash],
+	[detail].[AssistantTipEntityId],
+	[detail].[Status]
+FROM
+	[AssistantTipEntity] [lw_AssistantTipEntity]
+		INNER JOIN [AssistantTipIssueEntity] [detail] ON [lw_AssistantTipEntity].[Id] = [detail].[AssistantTipEntityId]
+
+13:27:31.981  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003839
+
+13:27:31.981  TRACE  Total Execution Time (Completed): 00:00:00.0006407. Rows Count: 3.
+
+13:27:31.981  TRACE  BeforeExecute
+DisposeTransaction
+13:27:31.981  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002077
+
+13:27:31.981  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[Type],
+	[t1].[State],
+	[t1].[Metadata],
+	[t1].[UniqueIssuesCount]
+FROM
+	[AssistantTipEntity] [t1]
+
+13:27:31.981  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002507
+
+13:27:31.981  TRACE  Total Execution Time (Completed): 00:00:00.0004500. Rows Count: 1.
+
+13:27:31.981  TRACE  Send message {AssistantNotification, 091a74b0-761c-46e9-8900-88e0e6f65173, Json, 171 bytes}.
+13:27:31.996  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0006690
+
+13:27:31.996  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_AssistantTipEntity].[Id],
+	[detail].[IssueHash],
+	[detail].[AssistantTipEntityId],
+	[detail].[Status]
+FROM
+	[AssistantTipEntity] [lw_AssistantTipEntity]
+		INNER JOIN [AssistantTipIssueEntity] [detail] ON [lw_AssistantTipEntity].[Id] = [detail].[AssistantTipEntityId]
+
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002582
+
+13:27:31.996  TRACE  Total Execution Time (Completed): 00:00:00.0004934. Rows Count: 3.
+
+13:27:31.996  TRACE  BeforeExecute
+DisposeTransaction
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002051
+
+13:27:31.996  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[Type],
+	[t1].[State],
+	[t1].[Metadata],
+	[t1].[UniqueIssuesCount]
+FROM
+	[AssistantTipEntity] [t1]
+
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002374
+
+13:27:31.996  TRACE  Total Execution Time (Completed): 00:00:00.0004373. Rows Count: 1.
+
+13:27:31.996  TRACE  Send message {AssistantNotification, 28d06d8d-efa9-4709-907f-796b60c1e370, Json, 202 bytes}.
+13:27:31.996  TRACE  Receive message {GetScanResults, 554d6b9f-fe7e-f045-936f-a0be7ab5040d, Json, 38 bytes}.
+13:27:31.996  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002962
+
+13:27:31.996  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[ComponentVersionId],
+	[detail].[ScanEnvironmentId],
+	[a_ComponentVersion].[Id],
+	[a_ComponentVersion].[Type],
+	[a_ComponentVersion].[Version]
+FROM
+	(
+		SELECT DISTINCT
+			[a_ScanEnvironment].[ScanResultId]
+		FROM
+			[ScanResultEntity] [x]
+				LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		WHERE
+			[x].[ProjectId] = @id
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [ScanEnvironmentComponentVersionsEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+		LEFT JOIN [ComponentVersionEntity] [a_ComponentVersion] ON [detail].[ComponentVersionId] = [a_ComponentVersion].[Id]
+
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003586
+
+13:27:31.996  TRACE  Total Execution Time (Completed): 00:00:00.0006062. Rows Count: 2.
+
+13:27:31.996  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+
+SELECT
+	[lw_ScanEnvironmentEntity].[ScanResultId],
+	[detail].[Id],
+	[detail].[ScanEnvironmentId],
+	[detail].[ScanAppType],
+	[detail].[Hash]
+FROM
+	(
+		SELECT DISTINCT
+			[a_ScanEnvironment].[ScanResultId]
+		FROM
+			[ScanResultEntity] [x]
+				LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		WHERE
+			[x].[ProjectId] = @id
+	) [lw_ScanEnvironmentEntity]
+		INNER JOIN [SastHashesEntity] [detail] ON [lw_ScanEnvironmentEntity].[ScanResultId] = [detail].[ScanEnvironmentId]
+
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002550
+
+13:27:31.996  TRACE  Total Execution Time (Completed): 00:00:00.0004822. Rows Count: 5.
+
+13:27:31.996  TRACE  BeforeExecute
+DisposeTransaction
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0001938
+
+13:27:31.996  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+DECLARE @id  -- Guid
+SET     @id = X'9A766956FE8C964A811D536887BDEBDE'
+
+SELECT
+	[x].[Id],
+	[x].[ScanChainId],
+	[x].[ProjectId],
+	[x].[SettingsId],
+	[x].[Version],
+	[x].[ScanDate],
+	[x].[PreviousScanResultId],
+	[x].[IsRunFromQueue],
+	[a_Progress].[ScanResultId],
+	[a_Progress].[Stage],
+	[a_Progress].[SubStage],
+	[a_Progress].[Value],
+	[a_Statistic].[ScanResultId],
+	[a_Statistic].[State],
+	[a_Statistic].[PolicyState],
+	[a_Statistic].[ScanDurationRaw],
+	[a_Statistic].[HighLevelVulnerabilityCount],
+	[a_Statistic].[MediumLevelVulnerabilityCount],
+	[a_Statistic].[LowLevelVulnerabilityCount],
+	[a_Statistic].[PotentialVulnerabilityCount],
+	[a_Statistic].[TotalBlackBoxVulnerabilityCount],
+	[a_Statistic].[TotalStaticVulnerabilityCount],
+	[a_Statistic].[TotalVulnerabilityCount],
+	[a_Statistic].[TotalFileCount],
+	[a_Statistic].[TotalUrlCount],
+	[a_Statistic].[ScannedUrlCount],
+	[a_Statistic].[ScannedFileCount],
+	[a_ScanEnvironment].[ScanResultId],
+	[a_ScanEnvironment].[InfrastructureVersionId],
+	[a_ScanEnvironment].[InstallatorVersionId],
+	[a_ScanEnvironment].[ClientVersionId],
+	[a_ScanEnvironment].[PmHash],
+	[a_ScanEnvironment].[FullRescanOnNewFilesAdded],
+	[a_InfrastructureVersion].[Id],
+	[a_InfrastructureVersion].[Type],
+	[a_InfrastructureVersion].[Version],
+	[a_InstallatorVersion].[Id],
+	[a_InstallatorVersion].[Type],
+	[a_InstallatorVersion].[Version],
+	[a_ClientVersion].[Id],
+	[a_ClientVersion].[Type],
+	[a_ClientVersion].[Version]
+FROM
+	[ScanResultEntity] [x]
+		LEFT JOIN [ScanResultProgressEntity] [a_Progress] ON [x].[Id] = [a_Progress].[ScanResultId]
+		LEFT JOIN [ScanResultStatisticEntity] [a_Statistic] ON [x].[Id] = [a_Statistic].[ScanResultId]
+		LEFT JOIN [ScanEnvironmentEntity] [a_ScanEnvironment] ON [x].[Id] = [a_ScanEnvironment].[ScanResultId]
+		LEFT JOIN [ComponentVersionEntity] [a_ClientVersion] ON [a_ScanEnvironment].[ClientVersionId] = [a_ClientVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InstallatorVersion] ON [a_ScanEnvironment].[InstallatorVersionId] = [a_InstallatorVersion].[Id]
+		LEFT JOIN [ComponentVersionEntity] [a_InfrastructureVersion] ON [a_ScanEnvironment].[InfrastructureVersionId] = [a_InfrastructureVersion].[Id]
+WHERE
+	[x].[ProjectId] = @id
+
+13:27:31.996  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003561
+
+13:27:31.996  TRACE  Total Execution Time (Completed): 00:00:00.0007388. Rows Count: 1.
+
+13:27:31.996  TRACE  BeforeExecute
+--  SQLite.MS SQLite (asynchronously)
+DECLARE @isSuppressed  -- Boolean
+SET     @isSuppressed = 0
+
+SELECT
+	[x].[ScanResultId],
+	[x].[Level],
+	Sum([x].[Count])
+FROM
+	[IssueStatisticEntity] [x]
+WHERE
+	[x].[ScanResultId] IN (X'D2F453435946464080D096152006C012') AND
+	[x].[State] <> 2 AND [x].[IsSuppressed] = @isSuppressed
+GROUP BY
+	[x].[ScanResultId],
+	[x].[Level]
+
+13:27:31.996  TRACE  Query Execution Time (AfterExecute) (async): 00:00:00.0003471
+
+13:27:31.996  TRACE  Total Execution Time (Completed) (async): 00:00:00.0008009. Rows Count: 3.
+
+13:27:31.996  TRACE  Send message {ScanResults, 53caef65-00e7-284c-92b6-0d8a3d98269a, Json, 1268 bytes}.
+13:27:32.011  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:32.011  TRACE  Query Execution Time (AfterExecute): 00:00:00.0005033
+
+13:27:32.011  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_AssistantTipEntity].[Id],
+	[detail].[IssueHash],
+	[detail].[AssistantTipEntityId],
+	[detail].[Status]
+FROM
+	[AssistantTipEntity] [lw_AssistantTipEntity]
+		INNER JOIN [AssistantTipIssueEntity] [detail] ON [lw_AssistantTipEntity].[Id] = [detail].[AssistantTipEntityId]
+
+13:27:32.011  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003953
+
+13:27:32.011  TRACE  Total Execution Time (Completed): 00:00:00.0006298. Rows Count: 3.
+
+13:27:32.011  TRACE  BeforeExecute
+DisposeTransaction
+13:27:32.011  TRACE  Query Execution Time (AfterExecute): 00:00:00.0001936
+
+13:27:32.011  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[Type],
+	[t1].[State],
+	[t1].[Metadata],
+	[t1].[UniqueIssuesCount]
+FROM
+	[AssistantTipEntity] [t1]
+
+13:27:32.011  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002373
+
+13:27:32.011  TRACE  Total Execution Time (Completed): 00:00:00.0004371. Rows Count: 1.
+
+13:27:32.011  TRACE  Send message {AssistantNotification, 32114049-aeac-4903-bfab-c03fbca67249, Json, 171 bytes}.
+13:27:32.027  TRACE  BeforeExecute
+BeginTransaction(Serializable)
+13:27:32.027  TRACE  Query Execution Time (AfterExecute): 00:00:00.0006544
+
+13:27:32.027  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[lw_AssistantTipEntity].[Id],
+	[detail].[IssueHash],
+	[detail].[AssistantTipEntityId],
+	[detail].[Status]
+FROM
+	[AssistantTipEntity] [lw_AssistantTipEntity]
+		INNER JOIN [AssistantTipIssueEntity] [detail] ON [lw_AssistantTipEntity].[Id] = [detail].[AssistantTipEntityId]
+
+13:27:32.027  TRACE  Query Execution Time (AfterExecute): 00:00:00.0003768
+
+13:27:32.027  TRACE  Total Execution Time (Completed): 00:00:00.0006170. Rows Count: 3.
+
+13:27:32.027  TRACE  BeforeExecute
+DisposeTransaction
+13:27:32.027  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002277
+
+13:27:32.027  TRACE  BeforeExecute
+--  SQLite.MS SQLite
+
+SELECT
+	[t1].[Id],
+	[t1].[Type],
+	[t1].[State],
+	[t1].[Metadata],
+	[t1].[UniqueIssuesCount]
+FROM
+	[AssistantTipEntity] [t1]
+
+13:27:32.027  TRACE  Query Execution Time (AfterExecute): 00:00:00.0002622
+
+13:27:32.027  TRACE  Total Execution Time (Completed): 00:00:00.0004810. Rows Count: 1.
+
+13:27:32.027  TRACE  Send message {AssistantNotification, f17c1413-2040-4030-a217-197cc7b5c913, Json, 202 bytes}.
+13:27:32.043  TRACE  Receive message {GetScanResults, 53caef65-00e7-284c-92b6-0d8a3d98269a, Json, 38 bytes}.
+13:28:07.379  TRACE  update feeds completed

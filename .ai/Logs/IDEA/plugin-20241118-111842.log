@@ -1,0 +1,59 @@
+2024-11-18T05:18:42.956Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project Smoke
+2024-11-18T05:18:42.956Z [s.AiToolwindowsInitializer.reinitializeToolWindows] INFO AI state ENABLED
+2024-11-18T05:18:42.957Z [.services.AnalyzerInstallationChecker.checkVersion] INFO analyzer is outdated
+2024-11-18T05:18:42.957Z [nfrastructureApiService.createInfrastructureFacade] INFO isInfrastructureDebug: false
+2024-11-18T05:18:42.957Z [nfrastructureApiService.createInfrastructureFacade] INFO Use port: 52974
+2024-11-18T05:18:42.958Z [.services.HeavyInfrastructureApiService.initialize] INFO Plugin context initialized
+2024-11-18T05:18:42.968Z [itializeManager$initializeAnalyzer$1.invokeSuspend] INFO initializing infrastructure
+2024-11-18T05:18:42.968Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-18T05:18:42.969Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-18T05:18:42.969Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-18T05:18:42.996Z [y.aiintellij.ui.panels.AIToolWindowLogPanel.<init>] INFO initializing a logs panel
+2024-11-18T05:18:42.998Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-18T05:18:42.998Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-18T05:18:43.025Z [intellij.services.AiInitializeManager.initializeAI] INFO IntelliJ listens web server on port: 63342
+2024-11-18T05:18:43.894Z [initializeInfrastructureInstance$1$1.invokeSuspend] INFO Infrastructure initialized
+2024-11-18T05:18:44.128Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was started
+2024-11-18T05:18:44.131Z [y.aiintellij.utils.logging.AiProjectLogger.cleanUp] INFO Clean up logs files was finished
+2024-11-18T05:18:45.178Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-18T05:18:45.196Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-18T05:18:45.269Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-18T05:18:49.020Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-18T05:18:49.024Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-18T05:18:49.034Z [ces.aie.AieInitializer.loadPreviouslyMappedProject] INFO No AIE mapped project
+2024-11-18T05:18:49.034Z [ices.aie.AieInitializer$initialize$1.invokeSuspend] INFO AIE Integration initialized
+2024-11-18T05:18:49.070Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO reloading additional log panels
+2024-11-18T05:18:49.070Z [els.AIToolWindowLogPanel.reloadAdditionalLogPanels] INFO not in developer mode, skipping
+2024-11-18T05:18:49.078Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-18T05:18:49.094Z [sistantNotificationService.onAssistantNotification] INFO QuickFixTipsUpdated notification is received by assistant
+2024-11-18T05:18:53.067Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO repository url: null, language is [Php]
+2024-11-18T05:18:54.776Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO no mapped project found
+2024-11-18T05:19:10.070Z [.controllers.aie.MapProjectController.onMapSuccess] INFO project successfully mapped: Smoke-PHP
+2024-11-18T05:19:10.072Z [iintellij.controllers.aie.MapProjectController.map] INFO sync statuses: ToEnterprise
+2024-11-18T05:19:10.581Z [ojectService$getActualScanSettings$1.invokeSuspend] WARN kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 500 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:191)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:161)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:507)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-11-18T05:19:10.755Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-18T05:19:10.785Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-18T05:19:11.092Z [ojectService$getActualScanSettings$1.invokeSuspend] WARN kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 500 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:191)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:161)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:507)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:277)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:69)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-11-18T05:19:11.530Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO update user's permissions: UserInfo(name=root, globalPermissions=[CreateProject, ManageIssueTrackerIntegration, ReadIssueTrackerIntegration, ManageLicense, ReadLicense, ManageScanQueue, ReadScanQueue, ManageScanAgents, ReadScanAgents, ManageCustomRules, ReadCustomRules, ManageAccessTokens, ReadAccessTokens, ReadSSLCert, LoadLogs, ReadLogSettings, ManageLogSettings, ManageSystemProxySettings, ReadSystemProxySettings, ManageMailProfileSettings, ReadMailProfileSettings, ManageReportSettings, ReadReportSettings, ManageSSOSettings, ReadSSOSettings, ManageUsers, ReadUsers, ManageRoles, ReadRoles], projectPermissions=[ViewProject, ChangeVulnStatus, DeleteScanResult, UpdateProject, ManageScan, DeleteProject, ManageProjectMembership, DeleteIssueTrackerTicket, CreateIssueTrackerTicket])
+2024-11-18T05:19:11.531Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user approve issues: true
+2024-11-18T05:19:11.531Z [urity.aiintellij.utils.logging.AiLoggerAdapter.log] INFO can user discard issues: true
+2024-11-18T05:19:32.773Z [tilsKt.updateDaemonCodeAnalyzerForOpenFilesFromEDT] INFO Update daemon code analyzer
+2024-11-18T05:19:32.804Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-18T05:19:32.978Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-18T05:19:32.994Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant
+2024-11-18T05:19:36.780Z [emoteIssueStateChangedListener$2$1$1.invokeSuspend] INFO Updating issues form remote source
+2024-11-18T05:19:36.796Z [sistantNotificationService.onAssistantNotification] INFO TipsAvailabilityChanged notification is received by assistant

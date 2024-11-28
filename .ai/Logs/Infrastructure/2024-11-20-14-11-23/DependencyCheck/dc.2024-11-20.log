@@ -1,0 +1,331 @@
+2024-11-20 14:11:40,775  |  INFO  |  [main.kt:32]  |  Log Path: C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-20-14-11-23\DependencyCheck
+2024-11-20 14:11:40,776  |  INFO  |  [main.kt:33]  |  Connection Type: pipe pipe-30610553-d715-463c-b621-5776150cafcd-dependencycheck
+2024-11-20 14:11:40,801  |  INFO  |  [Executor.kt:68]  |  Running the kernel message loop...
+2024-11-20 14:11:43,693  |  INFO  |  [Messenger.kt:54]  |  Received message Initialize
+2024-11-20 14:11:43,695  |  INFO  |  [Executor.kt:276]  |  ?{"Parameters":{"IsDependencyCheckAutoUpdateEnabled":true,"DependencyCheckAutoUpdateBaseUrl":"http://localhost:5008/api/DataFeeds/%d.json.gz","DependencyCheckAutoUpdateModifiedUrl":"http://localhost:5008/api/DataFeeds/modified.json.gz","DependencyCheckAutoUpdateRetireJsUrl":"http://localhost:5008/api/DataFeeds/jsrepository.json","DependencyCheckDataBaseFolder":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer\\DependencyCheck","AdditionalDependenciesToScanDirectories":[],"ScanType":"Full","LogsDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-20-14-11-23\\DependencyCheck","TempDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde\\DependencyCheck","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/jsonSchemas.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/misc.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/modules.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/Smoke.iml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml"},{"NodeType":2,"IncludeInScan":true,"NodePath":"./dir","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/oscom.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/sqli.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/xss.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xss.abc","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xsspm.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"}],"AfterCrash":false,"IsIncrementalScan":false}
+2024-11-20 14:11:43,725  |  INFO  |  [Executor.kt:102]  |  Configured for: C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke}
+2024-11-20 14:11:43,726  |  INFO  |  [Messenger.kt:74]  |  Sent message InitializeDone
+2024-11-20 14:11:43,925  |  INFO  |  [Messenger.kt:54]  |  Received message Precheck
+2024-11-20 14:11:43,927  |  INFO  |  [Executor.kt:133]  |  Updating the database...
+2024-11-20 14:11:43,927  |  INFO  |  [DependencyCheckerWrapper.kt:144]  |  Updating DB
+2024-11-20 14:11:43,929  |  INFO  |  [DependencyCheckerWrapper.kt:260]  |  Updating settings with DB dir C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck, baseUrl http://localhost:5008/api/DataFeeds/%d.json.gz, modifiedUrl: http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-11-20 14:11:44,045  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:11:44,045  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:11:44,046  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:11:44,047  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-11-20 14:11:45,490  |  INFO  |  [AnalyzersAvailabilityChecker.kt:56]  |  Maven Central (https://search.maven.org/) is reachable: true
+2024-11-20 14:11:45,490  |  INFO  |  [AnalyzersAvailabilityChecker.kt:61]  |  Npm registry (https://registry.npmjs.org/) is reachable: true
+2024-11-20 14:11:45,490  |  INFO  |  [AnalyzersAvailabilityChecker.kt:66]  |  CISA feeds (https://www.cisa.gov/) is reachable: true
+2024-11-20 14:11:45,490  |  INFO  |  [AnalyzersAvailabilityChecker.kt:71]  |  OSS Index (https://ossindex.sonatype.org/) is reachable: true
+2024-11-20 14:11:45,492  |  INFO  |  [DependencyCheckerWrapper.kt:277]  |  RetireJS Enabled for http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-11-20 14:11:45,492  |  INFO  |  [DependencyCheckerWrapper.kt:169]  |  Checking for old DB version
+2024-11-20 14:11:45,581  |  INFO  |  [CompositeCacheManager.java:210]  |  Instance is null, returning unconfigured instance
+2024-11-20 14:11:45,646  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.default PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-11-20 14:11:45,647  |  INFO  |  [CompositeCacheManager.java:471]  |  Setting default auxiliaries to ODC
+2024-11-20 14:11:45,654  |  INFO  |  [CompositeCacheManager.java:477]  |  setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:45,656  |  INFO  |  [CompositeCacheManager.java:483]  |  setting defaultElementAttributes to [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1732090305655, LastAccessTime = 1732090305655, getTimeToLiveSeconds() = 86399, createTime = 1732090305655 ]
+2024-11-20 14:11:45,659  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for CENTRAL
+2024-11-20 14:11:45,659  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [CENTRAL] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:45,664  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:11:45,665  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@587c3cef] for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:11:45,670  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.disk_cache_event_queue PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-11-20 14:11:45,672  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [CENTRAL] Cache file root directory: C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-11-20 14:11:45,673  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [CENTRAL] Set maxKeySize to: '1000000'
+2024-11-20 14:11:45,673  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [CENTRAL] Indexed Disk Cache is alive.
+2024-11-20 14:11:45,674  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for POM
+2024-11-20 14:11:45,674  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [POM] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:45,674  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:11:45,674  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@619d3105] for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:11:45,674  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [POM] Cache file root directory: C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-11-20 14:11:45,674  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [POM] Set maxKeySize to: '1000000'
+2024-11-20 14:11:45,674  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [POM] Indexed Disk Cache is alive.
+2024-11-20 14:11:45,674  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for NODEAUDIT
+2024-11-20 14:11:45,675  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [NODEAUDIT] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:45,675  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:11:45,675  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@38079e1d] for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:11:45,675  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [NODEAUDIT] Cache file root directory: C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-11-20 14:11:45,677  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [NODEAUDIT] Set maxKeySize to: '1000000'
+2024-11-20 14:11:45,677  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [NODEAUDIT] Indexed Disk Cache is alive.
+2024-11-20 14:11:45,677  |  INFO  |  [CompositeCacheConfigurator.java:144]  |  Parsed regions [CENTRAL, POM, NODEAUDIT]
+2024-11-20 14:11:45,678  |  INFO  |  [CompositeCacheManager.java:495]  |  Finished configuration in 31 ms.
+2024-11-20 14:11:45,679  |  INFO  |  [DependencyCheckerWrapper.kt:155]  |  Starting actual DB update
+2024-11-20 14:11:45,679  |  INFO  |  [FeedsUpdatingProgressTracker.kt:25]  |  process tracker was started
+2024-11-20 14:11:46,034  |  INFO  |  [Engine.java:893]  |  Checking for updates
+2024-11-20 14:11:46,037  |  INFO  |  [NvdCveUpdater.java:234]  |  Skipping NVD check since last check was within 4 hours.
+2024-11-20 14:11:46,039  |  INFO  |  [FeedsUpdatingProgressTracker.kt:32]  |  database was initialized
+2024-11-20 14:11:46,040  |  INFO  |  [RetireJSDataSource.java:119]  |  Skipping RetireJS update since last update was within 24 hours.
+2024-11-20 14:11:46,041  |  INFO  |  [HostedSuppressionsDataSource.java:112]  |  Skipping Hosted Suppressions file update since last update was within 2 hours.
+2024-11-20 14:11:46,042  |  INFO  |  [KnownExploitedDataSource.java:127]  |  Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+2024-11-20 14:11:46,050  |  INFO  |  [Engine.java:916]  |  Check for updates complete (16 ms)
+2024-11-20 14:11:46,059  |  INFO  |  [DependencyCheckerWrapper.kt:161]  |  DB update done!
+2024-11-20 14:11:46,060  |  INFO  |  [FeedsUpdatingProgressTracker.kt:154]  |  process tracker was canceled
+2024-11-20 14:11:46,060  |  INFO  |  [ElementEventQueue.java:86]  |  Element event queue destroyed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@6a512e60
+2024-11-20 14:11:46,060  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [NODEAUDIT] fromRemote [false]
+2024-11-20 14:11:46,060  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [NODEAUDIT] auxiliary [NODEAUDIT]
+2024-11-20 14:11:46,060  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [NODEAUDIT] put 0 into auxiliary NODEAUDIT
+2024-11-20 14:11:46,164  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-11-20 14:11:46,164  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-11-20 14:11:46,164  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [NODEAUDIT] Saving keys to: NODEAUDIT, key count: 0
+2024-11-20 14:11:46,170  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [NODEAUDIT] Finished saving keys.
+2024-11-20 14:11:46,170  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [NODEAUDIT] Shutdown complete.
+2024-11-20 14:11:46,170  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [NODEAUDIT] disposing of memory cache.
+2024-11-20 14:11:46,170  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:11:46,172  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [CENTRAL] fromRemote [false]
+2024-11-20 14:11:46,172  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [CENTRAL] auxiliary [CENTRAL]
+2024-11-20 14:11:46,172  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [CENTRAL] put 0 into auxiliary CENTRAL
+2024-11-20 14:11:46,287  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-11-20 14:11:46,287  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-11-20 14:11:46,287  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [CENTRAL] Saving keys to: CENTRAL, key count: 0
+2024-11-20 14:11:46,292  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [CENTRAL] Finished saving keys.
+2024-11-20 14:11:46,293  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [CENTRAL] Shutdown complete.
+2024-11-20 14:11:46,293  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [CENTRAL] disposing of memory cache.
+2024-11-20 14:11:46,293  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:11:46,293  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [POM] fromRemote [false]
+2024-11-20 14:11:46,293  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [POM] auxiliary [POM]
+2024-11-20 14:11:46,293  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [POM] put 0 into auxiliary POM
+2024-11-20 14:11:46,395  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-11-20 14:11:46,395  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-11-20 14:11:46,395  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [POM] Saving keys to: POM, key count: 0
+2024-11-20 14:11:46,402  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [POM] Finished saving keys.
+2024-11-20 14:11:46,402  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [POM] Shutdown complete.
+2024-11-20 14:11:46,402  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [POM] disposing of memory cache.
+2024-11-20 14:11:46,402  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:11:46,403  |  INFO  |  [Messenger.kt:74]  |  Sent message PrecheckDone
+2024-11-20 14:11:46,508  |  INFO  |  [Messenger.kt:54]  |  Received message Scan
+2024-11-20 14:11:46,508  |  INFO  |  [Executor.kt:113]  |  Check additional directory...
+2024-11-20 14:11:46,508  |  INFO  |  [Executor.kt:116]  |  Analyzing directory...
+2024-11-20 14:11:46,514  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:46,536  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:46,584  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:46,630  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:46,677  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:46,677  |  INFO  |  [DependencyCheckerWrapper.kt:260]  |  Updating settings with DB dir C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck, baseUrl http://localhost:5008/api/DataFeeds/%d.json.gz, modifiedUrl: http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-11-20 14:11:46,682  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:11:46,682  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:11:46,683  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:11:46,683  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-11-20 14:11:47,374  |  INFO  |  [AnalyzersAvailabilityChecker.kt:56]  |  Maven Central (https://search.maven.org/) is reachable: true
+2024-11-20 14:11:47,374  |  INFO  |  [AnalyzersAvailabilityChecker.kt:61]  |  Npm registry (https://registry.npmjs.org/) is reachable: true
+2024-11-20 14:11:47,374  |  INFO  |  [AnalyzersAvailabilityChecker.kt:66]  |  CISA feeds (https://www.cisa.gov/) is reachable: true
+2024-11-20 14:11:47,374  |  INFO  |  [AnalyzersAvailabilityChecker.kt:71]  |  OSS Index (https://ossindex.sonatype.org/) is reachable: true
+2024-11-20 14:11:47,374  |  INFO  |  [DependencyCheckerWrapper.kt:277]  |  RetireJS Enabled for http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-11-20 14:11:47,374  |  INFO  |  [DependencyCheckerWrapper.kt:207]  |  Scanning dependency set...
+2024-11-20 14:11:47,377  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.default PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-11-20 14:11:47,377  |  INFO  |  [CompositeCacheManager.java:471]  |  Setting default auxiliaries to ODC
+2024-11-20 14:11:47,378  |  INFO  |  [CompositeCacheManager.java:477]  |  setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:47,379  |  INFO  |  [CompositeCacheManager.java:483]  |  setting defaultElementAttributes to [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1732090307378, LastAccessTime = 1732090307378, getTimeToLiveSeconds() = 86399, createTime = 1732090307378 ]
+2024-11-20 14:11:47,379  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for CENTRAL
+2024-11-20 14:11:47,379  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [CENTRAL] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:47,379  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for POM
+2024-11-20 14:11:47,379  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [POM] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:47,380  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for NODEAUDIT
+2024-11-20 14:11:47,380  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [NODEAUDIT] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:11:47,380  |  INFO  |  [CompositeCacheConfigurator.java:144]  |  Parsed regions [CENTRAL, POM, NODEAUDIT]
+2024-11-20 14:11:47,380  |  INFO  |  [CompositeCacheManager.java:495]  |  Finished configuration in 3 ms.
+2024-11-20 14:11:47,532  |  INFO  |  [Engine.java:893]  |  Checking for updates
+2024-11-20 14:11:47,533  |  INFO  |  [NvdCveUpdater.java:234]  |  Skipping NVD check since last check was within 4 hours.
+2024-11-20 14:11:47,533  |  INFO  |  [RetireJSDataSource.java:119]  |  Skipping RetireJS update since last update was within 24 hours.
+2024-11-20 14:11:47,534  |  INFO  |  [HostedSuppressionsDataSource.java:112]  |  Skipping Hosted Suppressions file update since last update was within 2 hours.
+2024-11-20 14:11:47,534  |  INFO  |  [KnownExploitedDataSource.java:127]  |  Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+2024-11-20 14:11:47,545  |  INFO  |  [Engine.java:916]  |  Check for updates complete (13 ms)
+2024-11-20 14:11:47,727  |  INFO  |  [Engine.java:641]  |  
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user’s risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
+   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
+
+? Sponsor: https://github.com/sponsors/jeremylong
+
+
+2024-11-20 14:11:47,727  |  INFO  |  [Engine.java:652]  |  Analysis Started
+2024-11-20 14:11:47,730  |  INFO  |  [Engine.java:675]  |  Finished File Name Analyzer (0 seconds)
+2024-11-20 14:11:47,731  |  INFO  |  [Engine.java:675]  |  Finished Dependency Merging Analyzer (0 seconds)
+2024-11-20 14:11:47,805  |  INFO  |  [Engine.java:675]  |  Finished Hint Analyzer (0 seconds)
+2024-11-20 14:11:47,805  |  INFO  |  [Engine.java:675]  |  Finished Version Filter Analyzer (0 seconds)
+2024-11-20 14:11:49,350  |  INFO  |  [NpmCPEAnalyzer.java:106]  |  Created CPE Index (1 seconds)
+2024-11-20 14:11:49,477  |  INFO  |  [Engine.java:675]  |  Finished NPM CPE Analyzer (1 seconds)
+2024-11-20 14:11:50,558  |  INFO  |  [CPEAnalyzer.java:231]  |  Created CPE Index (1 seconds)
+2024-11-20 14:11:50,558  |  INFO  |  [Engine.java:675]  |  Finished CPE Analyzer (1 seconds)
+2024-11-20 14:11:50,558  |  INFO  |  [Engine.java:675]  |  Finished False Positive Analyzer (0 seconds)
+2024-11-20 14:11:50,559  |  INFO  |  [Engine.java:675]  |  Finished NVD CVE Analyzer (0 seconds)
+2024-11-20 14:11:50,559  |  INFO  |  [Engine.java:675]  |  Finished Sonatype OSS Index Analyzer (0 seconds)
+2024-11-20 14:11:50,559  |  INFO  |  [Engine.java:675]  |  Finished Vulnerability Suppression Analyzer (0 seconds)
+2024-11-20 14:11:50,576  |  INFO  |  [Engine.java:675]  |  Finished Known Exploited Vulnerability Analyzer (0 seconds)
+2024-11-20 14:11:50,576  |  INFO  |  [Engine.java:675]  |  Finished Dependency Bundling Analyzer (0 seconds)
+2024-11-20 14:11:50,576  |  INFO  |  [Engine.java:675]  |  Finished Unused Suppression Rule Analyzer (0 seconds)
+2024-11-20 14:11:50,580  |  INFO  |  [Engine.java:687]  |  Analysis Complete (2 seconds)
+2024-11-20 14:11:50,581  |  INFO  |  [ElementEventQueue.java:86]  |  Element event queue destroyed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@33fbee3b
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [NODEAUDIT] fromRemote [false]
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1349]  |  In DISPOSE, [NODEAUDIT] SKIPPING auxiliary [NODEAUDIT] fromRemote [false]
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [NODEAUDIT] disposing of memory cache.
+2024-11-20 14:11:50,582  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [CENTRAL] fromRemote [false]
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1349]  |  In DISPOSE, [CENTRAL] SKIPPING auxiliary [CENTRAL] fromRemote [false]
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [CENTRAL] disposing of memory cache.
+2024-11-20 14:11:50,582  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [POM] fromRemote [false]
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1349]  |  In DISPOSE, [POM] SKIPPING auxiliary [POM] fromRemote [false]
+2024-11-20 14:11:50,582  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [POM] disposing of memory cache.
+2024-11-20 14:11:50,582  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:11:50,582  |  INFO  |  [DependencyCheckerWrapper.kt:217]  |  Combining results...
+2024-11-20 14:11:50,600  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:50,607  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:50,623  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:50,638  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:50,653  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:11:50,669  |  INFO  |  [Messenger.kt:74]  |  Sent message ScanDone
+2024-11-20 14:11:50,703  |  INFO  |  [Messenger.kt:54]  |  Received message Finalize
+2024-11-20 14:11:50,703  |  INFO  |  [Messenger.kt:74]  |  Sent message FinalizeDone
+2024-11-20 14:11:50,703  |  INFO  |  [Executor.kt:214]  |  Stopping the working threads...
+2024-11-20 14:11:50,703  |  INFO  |  [FeedsUpdatingProgressTracker.kt:154]  |  process tracker was canceled
+2024-11-20 14:11:59,277  |  INFO  |  [main.kt:32]  |  Log Path: C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\.ai\Logs\Infrastructure\2024-11-20-14-11-23\DependencyCheck
+2024-11-20 14:11:59,279  |  INFO  |  [main.kt:33]  |  Connection Type: pipe pipe-adf417ff-006a-4d20-b359-d93f32b7bdce-dependencycheck
+2024-11-20 14:11:59,305  |  INFO  |  [Executor.kt:68]  |  Running the kernel message loop...
+2024-11-20 14:11:59,677  |  INFO  |  [Messenger.kt:54]  |  Received message Initialize
+2024-11-20 14:11:59,678  |  INFO  |  [Executor.kt:276]  |  ?{"Parameters":{"IsDependencyCheckAutoUpdateEnabled":true,"DependencyCheckAutoUpdateBaseUrl":"http://localhost:5008/api/DataFeeds/%d.json.gz","DependencyCheckAutoUpdateModifiedUrl":"http://localhost:5008/api/DataFeeds/modified.json.gz","DependencyCheckAutoUpdateRetireJsUrl":"http://localhost:5008/api/DataFeeds/jsrepository.json","DependencyCheckDataBaseFolder":"C:\\Users\\sizyn\\AppData\\Local\\Application Inspector Analyzer\\DependencyCheck","AdditionalDependenciesToScanDirectories":[],"ScanType":"Full","LogsDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Logs\\Infrastructure\\2024-11-20-14-11-23\\DependencyCheck","TempDirectory":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai\\Temp\\5669769a8cfe4a96811d536887bdebde\\DependencyCheck","VariableParameters":null,"SkipFileFormats":[],"SkipFilesFolders":[],"SkipTypes":["Detection of Error Condition Without Action","Download of Code Without Integrity Check","Exposure of Data Element to Wrong Session","Exposure of System Data to an Unauthorized Control Sphere","Improper Check for Unusual or Exceptional Conditions","Improper Resource Shutdown or Release","Incorrect Permission Assignment For Critical Resource","Information Exposure Through an Error Message","Information Exposure Through Persistent Cookies","Integer Overflow PM","Memory Leak","Missing Encryption of Sensitive Data","Plaintext Storage of a Password","Private Array Typed Field Returned From A Public Method","Public Data Assigned to Private Array Typed Field","Reliance on DNS Lookups in a Security Decision","Sensitive Cookie in HTTPS Session Without Secure Attribute","Time of check Time of use Race Condition","Uncontrolled Recursion"],"NodesExclusionFilter":["C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.ai"],"PreprocessingTimeout":3600},"Root":{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"},"Nodes":[{"NodeType":2,"IncludeInScan":false,"NodePath":"./.idea","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/.gitignore","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\.gitignore"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/jsonSchemas.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\jsonSchemas.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/misc.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\misc.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/modules.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\modules.xml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/Smoke.iml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\Smoke.iml"},{"NodeType":1,"IncludeInScan":false,"NodePath":"./.idea/workspace.xml","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\.idea\\workspace.xml"},{"NodeType":2,"IncludeInScan":true,"NodePath":"./dir","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/oscom.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\oscom.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/sqli.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\sqli.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./dir/xss.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\dir\\xss.php"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xss.abc","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xss.abc"},{"NodeType":1,"IncludeInScan":true,"NodePath":"./xsspm.php","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke\\xsspm.php"},{"NodeType":2,"IncludeInScan":true,"NodePath":".","PhysicalPath":"C:\\PositiveTechnologies\\AI\\apps\\PHP\\apps\\Smoke"}],"AfterCrash":false,"IsIncrementalScan":false}
+2024-11-20 14:11:59,705  |  INFO  |  [Executor.kt:102]  |  Configured for: C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke}
+2024-11-20 14:11:59,706  |  INFO  |  [Messenger.kt:74]  |  Sent message InitializeDone
+2024-11-20 14:11:59,955  |  INFO  |  [Messenger.kt:54]  |  Received message Precheck
+2024-11-20 14:11:59,957  |  INFO  |  [Executor.kt:133]  |  Updating the database...
+2024-11-20 14:11:59,958  |  INFO  |  [DependencyCheckerWrapper.kt:144]  |  Updating DB
+2024-11-20 14:11:59,958  |  INFO  |  [DependencyCheckerWrapper.kt:260]  |  Updating settings with DB dir C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck, baseUrl http://localhost:5008/api/DataFeeds/%d.json.gz, modifiedUrl: http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-11-20 14:12:00,090  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:12:00,090  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:12:00,091  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:12:00,093  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-11-20 14:12:01,569  |  INFO  |  [AnalyzersAvailabilityChecker.kt:56]  |  Maven Central (https://search.maven.org/) is reachable: true
+2024-11-20 14:12:01,569  |  INFO  |  [AnalyzersAvailabilityChecker.kt:61]  |  Npm registry (https://registry.npmjs.org/) is reachable: true
+2024-11-20 14:12:01,569  |  INFO  |  [AnalyzersAvailabilityChecker.kt:66]  |  CISA feeds (https://www.cisa.gov/) is reachable: true
+2024-11-20 14:12:01,569  |  INFO  |  [AnalyzersAvailabilityChecker.kt:71]  |  OSS Index (https://ossindex.sonatype.org/) is reachable: true
+2024-11-20 14:12:01,570  |  INFO  |  [DependencyCheckerWrapper.kt:277]  |  RetireJS Enabled for http://localhost:5008/api/DataFeeds/jsrepository.json
+2024-11-20 14:12:01,571  |  INFO  |  [DependencyCheckerWrapper.kt:169]  |  Checking for old DB version
+2024-11-20 14:12:01,657  |  INFO  |  [CompositeCacheManager.java:210]  |  Instance is null, returning unconfigured instance
+2024-11-20 14:12:01,720  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.default PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-11-20 14:12:01,720  |  INFO  |  [CompositeCacheManager.java:471]  |  Setting default auxiliaries to ODC
+2024-11-20 14:12:01,727  |  INFO  |  [CompositeCacheManager.java:477]  |  setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:12:01,728  |  INFO  |  [CompositeCacheManager.java:483]  |  setting defaultElementAttributes to [ IS_LATERAL = false, IS_SPOOL = true, IS_REMOTE = false, IS_ETERNAL = false, MaxLifeSeconds = 86400, IdleTime = 1800, CreateTime = 1732090321727, LastAccessTime = 1732090321727, getTimeToLiveSeconds() = 86399, createTime = 1732090321727 ]
+2024-11-20 14:12:01,732  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for CENTRAL
+2024-11-20 14:12:01,732  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [CENTRAL] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:12:01,736  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:12:01,737  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@73873859] for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:12:01,742  |  INFO  |  [ThreadPoolManager.java:384]  |  thread_pool.disk_cache_event_queue PoolConfiguration = useBoundary = [false] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2024-11-20 14:12:01,745  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [CENTRAL] Cache file root directory: C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-11-20 14:12:01,746  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [CENTRAL] Set maxKeySize to: '1000000'
+2024-11-20 14:12:01,746  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [CENTRAL] Indexed Disk Cache is alive.
+2024-11-20 14:12:01,746  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for POM
+2024-11-20 14:12:01,747  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [POM] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:12:01,747  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:12:01,747  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@43e77c06] for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:12:01,747  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [POM] Cache file root directory: C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-11-20 14:12:01,747  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [POM] Set maxKeySize to: '1000000'
+2024-11-20 14:12:01,747  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [POM] Indexed Disk Cache is alive.
+2024-11-20 14:12:01,747  |  INFO  |  [AbstractDoubleLinkedListMemoryCache.java:70]  |  initialized MemoryCache for NODEAUDIT
+2024-11-20 14:12:01,747  |  INFO  |  [CompositeCache.java:150]  |  Constructed cache with name [NODEAUDIT] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 0, maxSpoolPerRun = -1, diskUsagePattern = UPDATE, spoolChunkSize = 2 ]
+2024-11-20 14:12:01,748  |  INFO  |  [AuxiliaryCacheConfigurator.java:86]  |  No cache event logger defined for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:12:01,748  |  INFO  |  [AuxiliaryCacheConfigurator.java:123]  |  Using standard serializer [org.apache.commons.jcs.utils.serialization.StandardSerializer@5e474735] for auxiliary [jcs.auxiliary.ODC]
+2024-11-20 14:12:01,748  |  INFO  |  [IndexedDiskCache.java:220]  |  Region [NODEAUDIT] Cache file root directory: C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck\cache
+2024-11-20 14:12:01,750  |  INFO  |  [IndexedDiskCache.java:1008]  |  Region [NODEAUDIT] Set maxKeySize to: '1000000'
+2024-11-20 14:12:01,750  |  INFO  |  [IndexedDiskCache.java:191]  |  Region [NODEAUDIT] Indexed Disk Cache is alive.
+2024-11-20 14:12:01,750  |  INFO  |  [CompositeCacheConfigurator.java:144]  |  Parsed regions [CENTRAL, POM, NODEAUDIT]
+2024-11-20 14:12:01,750  |  INFO  |  [CompositeCacheManager.java:495]  |  Finished configuration in 30 ms.
+2024-11-20 14:12:01,752  |  INFO  |  [DependencyCheckerWrapper.kt:155]  |  Starting actual DB update
+2024-11-20 14:12:01,752  |  INFO  |  [FeedsUpdatingProgressTracker.kt:25]  |  process tracker was started
+2024-11-20 14:12:02,128  |  INFO  |  [Engine.java:893]  |  Checking for updates
+2024-11-20 14:12:02,132  |  INFO  |  [NvdCveUpdater.java:234]  |  Skipping NVD check since last check was within 4 hours.
+2024-11-20 14:12:02,134  |  INFO  |  [RetireJSDataSource.java:119]  |  Skipping RetireJS update since last update was within 24 hours.
+2024-11-20 14:12:02,134  |  INFO  |  [HostedSuppressionsDataSource.java:112]  |  Skipping Hosted Suppressions file update since last update was within 2 hours.
+2024-11-20 14:12:02,135  |  INFO  |  [KnownExploitedDataSource.java:127]  |  Skipping Known Exploited Vulnerabilities update check since last check was within 24 hours.
+2024-11-20 14:12:02,137  |  INFO  |  [FeedsUpdatingProgressTracker.kt:32]  |  database was initialized
+2024-11-20 14:12:02,144  |  INFO  |  [Engine.java:916]  |  Check for updates complete (16 ms)
+2024-11-20 14:12:02,152  |  INFO  |  [DependencyCheckerWrapper.kt:161]  |  DB update done!
+2024-11-20 14:12:02,152  |  INFO  |  [FeedsUpdatingProgressTracker.kt:154]  |  process tracker was canceled
+2024-11-20 14:12:02,154  |  INFO  |  [ElementEventQueue.java:86]  |  Element event queue destroyed: org.apache.commons.jcs.engine.control.event.ElementEventQueue@10d3ffe4
+2024-11-20 14:12:02,154  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [NODEAUDIT] fromRemote [false]
+2024-11-20 14:12:02,154  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [NODEAUDIT] auxiliary [NODEAUDIT]
+2024-11-20 14:12:02,154  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [NODEAUDIT] put 0 into auxiliary NODEAUDIT
+2024-11-20 14:12:02,160  |  INFO  |  [FeedsUpdatingProgressTracker.kt:53]  |  exiting from FeedsUpdatingProgressTracker
+2024-11-20 14:12:02,265  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-11-20 14:12:02,265  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-11-20 14:12:02,266  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [NODEAUDIT] Saving keys to: NODEAUDIT, key count: 0
+2024-11-20 14:12:02,270  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [NODEAUDIT] Finished saving keys.
+2024-11-20 14:12:02,271  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [NODEAUDIT] Shutdown complete.
+2024-11-20 14:12:02,271  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [NODEAUDIT] disposing of memory cache.
+2024-11-20 14:12:02,271  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:12:02,271  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [CENTRAL] fromRemote [false]
+2024-11-20 14:12:02,271  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [CENTRAL] auxiliary [CENTRAL]
+2024-11-20 14:12:02,271  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [CENTRAL] put 0 into auxiliary CENTRAL
+2024-11-20 14:12:02,374  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-11-20 14:12:02,374  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-11-20 14:12:02,374  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [CENTRAL] Saving keys to: CENTRAL, key count: 0
+2024-11-20 14:12:02,377  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [CENTRAL] Finished saving keys.
+2024-11-20 14:12:02,377  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [CENTRAL] Shutdown complete.
+2024-11-20 14:12:02,378  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [CENTRAL] disposing of memory cache.
+2024-11-20 14:12:02,378  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:12:02,378  |  INFO  |  [CompositeCache.java:1309]  |  In DISPOSE, [POM] fromRemote [false]
+2024-11-20 14:12:02,378  |  INFO  |  [CompositeCache.java:1357]  |  In DISPOSE, [POM] auxiliary [POM]
+2024-11-20 14:12:02,378  |  INFO  |  [CompositeCache.java:1373]  |  In DISPOSE, [POM] put 0 into auxiliary POM
+2024-11-20 14:12:02,482  |  INFO  |  [AbstractDiskCache.java:490]  |  No longer waiting for event queue to finish: Pooled Cache Event Queue
+Working = true
+Alive = false
+Empty = true
+Queue Size = 0
+Queue Capacity = 2147483647
+Pool Size = 0
+Maximum Pool Size = 150
+2024-11-20 14:12:02,482  |  INFO  |  [AbstractDiskCache.java:505]  |  In dispose, destroying event queue.
+2024-11-20 14:12:02,482  |  INFO  |  [IndexedDiskCache.java:464]  |  Region [POM] Saving keys to: POM, key count: 0
+2024-11-20 14:12:02,486  |  INFO  |  [IndexedDiskCache.java:479]  |  Region [POM] Finished saving keys.
+2024-11-20 14:12:02,486  |  INFO  |  [IndexedDiskCache.java:1117]  |  Region [POM] Shutdown complete.
+2024-11-20 14:12:02,486  |  INFO  |  [CompositeCache.java:1388]  |  In DISPOSE, [POM] disposing of memory cache.
+2024-11-20 14:12:02,486  |  INFO  |  [AbstractMemoryCache.java:238]  |  Memory Cache dispose called.
+2024-11-20 14:12:02,488  |  INFO  |  [Messenger.kt:74]  |  Sent message PrecheckDone
+2024-11-20 14:12:02,577  |  INFO  |  [Messenger.kt:54]  |  Received message Scan
+2024-11-20 14:12:02,578  |  INFO  |  [Executor.kt:113]  |  Check additional directory...
+2024-11-20 14:12:02,578  |  INFO  |  [Executor.kt:116]  |  Analyzing directory...
+2024-11-20 14:12:02,582  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:12:02,608  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:12:02,655  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:12:02,702  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:12:02,749  |  INFO  |  [Messenger.kt:104]  |  Sent message NodeScanStatus
+2024-11-20 14:12:02,749  |  INFO  |  [DependencyCheckerWrapper.kt:260]  |  Updating settings with DB dir C:\Users\sizyn\AppData\Local\Application Inspector Analyzer\DependencyCheck, baseUrl http://localhost:5008/api/DataFeeds/%d.json.gz, modifiedUrl: http://localhost:5008/api/DataFeeds/modified.json.gz
+2024-11-20 14:12:02,755  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:12:02,755  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:12:02,755  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:12:02,755  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled

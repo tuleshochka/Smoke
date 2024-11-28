@@ -1,0 +1,9 @@
+2024-11-15 12:49:42.198362 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir
+2024-11-15 12:49:42.209469 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-15 12:49:42.216070 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-15 12:49:42.225855 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\xss.php
+2024-11-15 12:49:42.235663 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+2024-11-15 12:49:42.245528 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-15 12:49:42.256060 ║INFO	║ 18800	║ process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke
+2024-11-15 12:49:48.594129 ║INFO	║ 18800	║ Finalize
+2024-11-15 12:49:48.599327 ║INFO	║ 18800	║ Finalize done

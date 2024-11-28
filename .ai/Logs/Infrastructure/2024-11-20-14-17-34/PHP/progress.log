@@ -1,0 +1,27 @@
+2024-11-20 14:17:49.635186 ║INFO	║ 23064	║   0.000 >> process AI3 init
+2024-11-20 14:17:49.680061 ║INFO	║ 23064	║   0.046 >> Preprocessing started
+2024-11-20 14:17:50.438978 ║INFO	║ 23064	║   0.805 >> Preprocessing finished
+2024-11-20 14:17:52.360478 ║INFO	║ 23064	║   2.726 >> Scan started
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   0.001 >> worker.run started
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   0.001 >> worker.run started
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   0.001 >> worker.run started
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   0.000 >> worker.run started
+2024-11-20 14:17:52.366577 ║INFO	║ 23064	║   0.001 >> worker.run started
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   0.000 >> worker.run started
+2024-11-20 14:17:52.367579 ║INFO	║ 23064	║   0.000 >> worker.run started
+2024-11-20 14:17:52.382697 ║INFO	║ 23064	║   0.014 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xss.abc
+php
+2024-11-20 14:17:52.382697 ║INFO	║ 23064	║   0.008 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\sqli.php
+2024-11-20 14:17:52.382697 ║INFO	║ 23064	║   0.008 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\dir\oscom.php
+2024-11-20 14:17:52.402289 ║INFO	║ 23064	║   0.030 >> process file C:\PositiveTechnologies\AI\apps\PHP\apps\Smoke\xsspm.php
+2024-11-20 14:17:53.382214 ║INFO	║ 23064	║   1.021 >> worker.run finished -2
+2024-11-20 14:17:53.396137 ║INFO	║ 23064	║   1.022 >> worker.run finished -2
+2024-11-20 14:17:54.512976 ║INFO	║ 23064	║   2.151 >> worker.run finished -3
+2024-11-20 14:17:55.529893 ║INFO	║ 23064	║   3.168 >> worker.run finished -7
+2024-11-20 14:17:55.529893 ║INFO	║ 23064	║   3.168 >> worker.run finished -7
+2024-11-20 14:17:55.529893 ║INFO	║ 23064	║   3.168 >> worker.run finished -7
+2024-11-20 14:17:55.637812 ║INFO	║ 23064	║   3.276 >> worker.run finished -7
+2024-11-20 14:17:55.649965 ║INFO	║ 23064	║   6.005 >> Scan finished
+2024-11-20 14:18:35.370286 ║INFO	║ 15148	║   0.000 >> process AI3 init
+2024-11-20 14:18:35.413717 ║INFO	║ 15148	║   0.043 >> Preprocessing started
+2024-11-20 14:18:36.209216 ║INFO	║ 15148	║   0.839 >> Preprocessing finished

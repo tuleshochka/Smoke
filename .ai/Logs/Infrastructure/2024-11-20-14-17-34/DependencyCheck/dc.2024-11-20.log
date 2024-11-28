@@ -1,0 +1,12 @@
+2024-11-20 14:17:49,800  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:17:49,802  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:17:49,803  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:17:49,803  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-11-20 14:17:52,483  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:17:52,484  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:17:52,486  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:17:52,486  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
+2024-11-20 14:18:35,541  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'bundle-audit', some results may not be available
+2024-11-20 14:18:35,544  |  WARN  |  [AnalyzersAvailabilityChecker.kt:27]  |  can't execute 'bundle-audit' command, bundle audit analyzer is disabled
+2024-11-20 14:18:35,546  |  WARN  |  [AnalyzersAvailabilityChecker.kt:135]  |  Can't execute 'yarn --version', some results may not be available
+2024-11-20 14:18:35,546  |  WARN  |  [AnalyzersAvailabilityChecker.kt:32]  |  can't execute 'yarn --version' command, Yarn audit analyzer is disabled
